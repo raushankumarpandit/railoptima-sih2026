@@ -1,0 +1,283 @@
+table_type,table_name,column_name,data_type,is_nullable,description
+master,master_corridors,corridor_id,VARCHAR,NO,Primary key for corridor (e.g. COR-001)
+master,master_corridors,name,VARCHAR,NO,Name of the corridor
+master,master_corridors,code,VARCHAR,NO,Short code of the corridor
+master,master_corridors,length_km,DECIMAL,NO,Total length of the corridor in kilometers
+master,master_sections,section_id,VARCHAR,NO,Primary key for section (e.g. SEC-001)
+master,master_sections,corridor_id,VARCHAR,NO,Foreign key pointing to corridors
+master,master_sections,name,VARCHAR,NO,Name of the section
+master,master_sections,start_km,DECIMAL,NO,Starting kilometer post
+master,master_sections,end_km,DECIMAL,NO,Ending kilometer post
+master,master_sections,line_type,VARCHAR,NO,Line type direction (UP / DOWN / THIRD / FOURTH)
+master,master_stations,station_id,VARCHAR,NO,Primary key for station (e.g. STA-001)
+master,master_stations,corridor_id,VARCHAR,NO,Foreign key pointing to corridors
+master,master_stations,name,VARCHAR,NO,Name of the station
+master,master_stations,code,VARCHAR,NO,Station code (e.g. DLI, GZB)
+master,master_stations,km_post,DECIMAL,NO,Kilometer post location of station
+master,master_departments,department_id,VARCHAR,NO,Primary key for department (e.g. DEP-001)
+master,master_departments,name,VARCHAR,NO,Canonical name of department (ENGINEERING / S&T / TRD)
+master,master_asset_types,asset_type_id,VARCHAR,NO,Primary key for asset type (e.g. AT-001)
+master,master_asset_types,department_id,VARCHAR,NO,Foreign key pointing to departments
+master,master_asset_types,name,VARCHAR,NO,Name of asset type (e.g. rail, signal, OHE)
+master,master_asset_types,description,VARCHAR,YES,Detailed description of the asset type
+source,tms_track_assets,tms_asset_id,VARCHAR,NO,Primary key for TMS track asset (AST-###)
+source,tms_track_assets,asset_type_id,VARCHAR,NO,Foreign key pointing to asset types
+source,tms_track_assets,section_id,VARCHAR,NO,Foreign key pointing to sections
+source,tms_track_assets,track_km,DECIMAL,NO,Location kilometer post
+source,tms_track_assets,installation_date,DATE,NO,Date of asset installation (YYYY-MM-DD)
+source,tms_track_assets,status,VARCHAR,NO,Current status of asset
+source,tms_track_assets,last_inspected_date,DATE,YES,Last inspection date
+source,tms_inspections,tms_inspection_id,VARCHAR,NO,Primary key for inspection (INS-###)
+source,tms_inspections,tms_asset_id,VARCHAR,NO,Foreign key pointing to TMS assets
+source,tms_inspections,inspected_by,VARCHAR,NO,Name of the inspector
+source,tms_inspections,inspection_date,DATETIME,NO,Date and time of inspection (ISO 8601)
+source,tms_inspections,status,VARCHAR,NO,Inspection completion status
+source,tms_inspections,track_gauge_deviation_mm,INTEGER,YES,Gauge deviation in millimeters
+source,tms_inspections,wear_index,DECIMAL,YES,Fractional wear index (0.0 to 1.0)
+source,tms_inspections,notes,VARCHAR,YES,Remarks from inspector
+source,tms_defects,tms_defect_id,VARCHAR,NO,Primary key for defect (DEF-###)
+source,tms_defects,tms_asset_id,VARCHAR,NO,Foreign key pointing to TMS assets
+source,tms_defects,detected_date,DATETIME,NO,Detection datetime (ISO 8601)
+source,tms_defects,inspection_id,VARCHAR,YES,Foreign key pointing to TMS inspections (null if ad-hoc)
+source,tms_defects,defect_type,VARCHAR,NO,Type of track defect
+source,tms_defects,severity_level,VARCHAR,NO,Severity category (MINOR / MAJOR / CRITICAL)
+source,tms_defects,safety_effect,VARCHAR,NO,Safety restriction imposed
+source,tms_defects,operational_effect,VARCHAR,NO,Impact on operations
+source,tms_defects,status,VARCHAR,NO,Current defect status (OPEN / UNDER_MAINTENANCE / RESOLVED / CLOSED)
+source,tms_defects,resolved_date,DATETIME,YES,Datetime when resolved
+source,tms_maintenance,tms_task_id,VARCHAR,NO,Primary key for maintenance task (TASK-###)
+source,tms_maintenance,tms_asset_id,VARCHAR,NO,Foreign key pointing to TMS assets
+source,tms_maintenance,tms_defect_id,VARCHAR,YES,Foreign key pointing to TMS defects (null if preventive)
+source,tms_maintenance,task_type,VARCHAR,NO,Type of task (PREVENTIVE / CORRECTIVE / EMERGENCY)
+source,tms_maintenance,planned_start,DATETIME,NO,Planned start time
+source,tms_maintenance,planned_end,DATETIME,NO,Planned end time
+source,tms_maintenance,due_date,DATETIME,NO,Task due date
+source,tms_maintenance,required_block_type,VARCHAR,NO,Required block type (e.g. TRAFFIC_BLOCK, SHADOW)
+source,tms_maintenance,estimated_duration_minutes,INTEGER,NO,Estimated duration in minutes
+source,tms_maintenance,status,VARCHAR,NO,Task status (PLANNED / COMPLETED / DEFERRED / CANCELLED)
+source,tms_maintenance_history,tms_history_id,VARCHAR,NO,Primary key for execution record (HIST-###)
+source,tms_maintenance_history,tms_task_id,VARCHAR,NO,Foreign key pointing to TMS maintenance tasks
+source,tms_maintenance_history,actual_start,DATETIME,NO,Actual start datetime
+source,tms_maintenance_history,actual_end,DATETIME,NO,Actual end datetime
+source,tms_maintenance_history,work_done,VARCHAR,YES,Summary of maintenance work performed
+source,tms_maintenance_history,completion_status,VARCHAR,NO,Final completion status (COMPLETED / DEFERRED)
+source,tms_maintenance_history,team_lead,VARCHAR,YES,Name of maintenance team lead
+source,smms_signal_assets,smms_asset_id,VARCHAR,NO,Primary key for SMMS asset (AST-###)
+source,smms_signal_assets,asset_type_id,VARCHAR,NO,Foreign key pointing to asset types
+source,smms_signal_assets,section_id,VARCHAR,NO,Foreign key pointing to sections
+source,smms_signal_assets,location_km,DECIMAL,NO,Location kilometer post
+source,smms_signal_assets,installation_date,DATE,NO,Date of asset installation (YYYY-MM-DD)
+source,smms_signal_assets,status,VARCHAR,NO,Current status of asset
+source,smms_inspections,smms_inspection_id,VARCHAR,NO,Primary key for inspection (INS-###)
+source,smms_inspections,smms_asset_id,VARCHAR,NO,Foreign key pointing to SMMS assets
+source,smms_inspections,inspected_by,VARCHAR,NO,Name of the inspector
+source,smms_inspections,inspection_date,DATETIME,NO,Date and time of inspection (ISO 8601)
+source,smms_inspections,voltage_level_v,DECIMAL,YES,Operating voltage level in Volts
+source,smms_inspections,signal_visibility_m,INTEGER,YES,Signal visibility distance in meters
+source,smms_inspections,status,VARCHAR,NO,Inspection completion status
+source,smms_inspections,notes,VARCHAR,YES,Remarks from inspector
+source,smms_faults,smms_fault_id,VARCHAR,NO,Primary key for fault (DEF-###)
+source,smms_faults,smms_asset_id,VARCHAR,NO,Foreign key pointing to SMMS assets
+source,smms_faults,detected_date,DATETIME,NO,Detection datetime (ISO 8601)
+source,smms_faults,inspection_id,VARCHAR,YES,Foreign key pointing to SMMS inspections (null if ad-hoc)
+source,smms_faults,fault_type,VARCHAR,NO,Type of signal fault
+source,smms_faults,severity_level,VARCHAR,NO,Severity category (MINOR / MAJOR / CRITICAL)
+source,smms_faults,safety_effect,VARCHAR,NO,Safety restriction imposed
+source,smms_faults,operational_effect,VARCHAR,NO,Impact on operations
+source,smms_faults,status,VARCHAR,NO,Current fault status (OPEN / UNDER_MAINTENANCE / RESOLVED / CLOSED)
+source,smms_faults,resolved_date,DATETIME,YES,Datetime when resolved
+source,smms_maintenance,smms_task_id,VARCHAR,NO,Primary key for maintenance task (TASK-###)
+source,smms_maintenance,smms_asset_id,VARCHAR,NO,Foreign key pointing to SMMS assets
+source,smms_maintenance,smms_fault_id,VARCHAR,YES,Foreign key pointing to SMMS faults (null if preventive)
+source,smms_maintenance,task_type,VARCHAR,NO,Type of task (PREVENTIVE / CORRECTIVE / EMERGENCY)
+source,smms_maintenance,planned_start,DATETIME,NO,Planned start time
+source,smms_maintenance,planned_end,DATETIME,NO,Planned end time
+source,smms_maintenance,due_date,DATETIME,NO,Task due date
+source,smms_maintenance,required_block_type,VARCHAR,NO,Required block type
+source,smms_maintenance,estimated_duration_minutes,INTEGER,NO,Estimated duration in minutes
+source,smms_maintenance,status,VARCHAR,NO,Task status
+source,smms_maintenance_history,smms_history_id,VARCHAR,NO,Primary key for execution record (HIST-###)
+source,smms_maintenance_history,smms_task_id,VARCHAR,NO,Foreign key pointing to SMMS maintenance tasks
+source,smms_maintenance_history,actual_start,DATETIME,NO,Actual start datetime
+source,smms_maintenance_history,actual_end,DATETIME,NO,Actual end datetime
+source,smms_maintenance_history,work_done,VARCHAR,YES,Summary of maintenance work performed
+source,smms_maintenance_history,completion_status,VARCHAR,NO,Final completion status
+source,smms_maintenance_history,technician,VARCHAR,YES,Name of maintenance technician
+source,tdms_assets,tdms_asset_id,VARCHAR,NO,Primary key for TDMS asset (AST-###)
+source,tdms_assets,asset_type_id,VARCHAR,NO,Foreign key pointing to asset types
+source,tdms_assets,section_id,VARCHAR,NO,Foreign key pointing to sections
+source,tdms_assets,location_km,DECIMAL,NO,Location kilometer post
+source,tdms_assets,installation_date,DATE,NO,Date of asset installation
+source,tdms_assets,status,VARCHAR,NO,Current status of asset
+source,tdms_inspections,tdms_inspection_id,VARCHAR,NO,Primary key for inspection (INS-###)
+source,tdms_inspections,tdms_asset_id,VARCHAR,NO,Foreign key pointing to TDMS assets
+source,tdms_inspections,inspected_by,VARCHAR,NO,Name of the inspector
+source,tdms_inspections,inspection_date,DATETIME,NO,Date and time of inspection
+source,tdms_inspections,contact_wire_wear_mm,DECIMAL,YES,Contact wire wear in millimeters
+source,tdms_inspections,mast_tilt_degrees,DECIMAL,YES,Mast tilt angle in degrees
+source,tdms_inspections,status,VARCHAR,NO,Inspection completion status
+source,tdms_inspections,notes,VARCHAR,YES,Remarks from inspector
+source,tdms_faults,tdms_fault_id,VARCHAR,NO,Primary key for fault (DEF-###)
+source,tdms_faults,tdms_asset_id,VARCHAR,NO,Foreign key pointing to TDMS assets
+source,tdms_faults,detected_date,DATETIME,NO,Detection datetime
+source,tdms_faults,inspection_id,VARCHAR,YES,Foreign key pointing to TDMS inspections (null if ad-hoc)
+source,tdms_faults,fault_type,VARCHAR,NO,Type of traction fault
+source,tdms_faults,severity_level,VARCHAR,NO,Severity category
+source,tdms_faults,safety_effect,VARCHAR,NO,Safety restriction imposed
+source,tdms_faults,operational_effect,VARCHAR,NO,Impact on operations
+source,tdms_faults,status,VARCHAR,NO,Current fault status
+source,tdms_faults,resolved_date,DATETIME,YES,Datetime when resolved
+source,tdms_maintenance,tdms_task_id,VARCHAR,NO,Primary key for maintenance task (TASK-###)
+source,tdms_maintenance,tdms_asset_id,VARCHAR,NO,Foreign key pointing to TDMS assets
+source,tdms_maintenance,tdms_fault_id,VARCHAR,YES,Foreign key pointing to TDMS faults (null if preventive)
+source,tdms_maintenance,task_type,VARCHAR,NO,Type of task
+source,tdms_maintenance,planned_start,DATETIME,NO,Planned start time
+source,tdms_maintenance,planned_end,DATETIME,NO,Planned end time
+source,tdms_maintenance,due_date,DATETIME,NO,Task due date
+source,tdms_maintenance,required_block_type,VARCHAR,NO,Required block type
+source,tdms_maintenance,estimated_duration_minutes,INTEGER,NO,Estimated duration in minutes
+source,tdms_maintenance,status,VARCHAR,NO,Task status
+source,tdms_maintenance_history,tdms_history_id,VARCHAR,NO,Primary key for execution record (HIST-###)
+source,tdms_maintenance_history,tdms_task_id,VARCHAR,NO,Foreign key pointing to TDMS maintenance tasks
+source,tdms_maintenance_history,actual_start,DATETIME,NO,Actual start datetime
+source,tdms_maintenance_history,actual_end,DATETIME,NO,Actual end datetime
+source,tdms_maintenance_history,work_done,VARCHAR,YES,Summary of maintenance work performed
+source,tdms_maintenance_history,completion_status,VARCHAR,NO,Final completion status
+source,tdms_maintenance_history,technician,VARCHAR,YES,Name of maintenance technician
+source,coa_trains,coa_train_id,VARCHAR,NO,Primary key for train (TRN-###)
+source,coa_trains,number,VARCHAR,NO,5-digit unique train number (e.g. 12056)
+source,coa_trains,name,VARCHAR,NO,Name of the train
+source,coa_trains,type,VARCHAR,NO,Train category (PASSENGER / EXPRESS / GOODS / MEMU / DEMU)
+source,coa_trains,max_speed_kmh,INTEGER,NO,Maximum permissible speed of the train in km/h
+source,coa_train_schedule,coa_schedule_id,VARCHAR,NO,Primary key for schedule entry (SCH-###)
+source,coa_train_schedule,coa_train_id,VARCHAR,NO,Foreign key pointing to coa_trains
+source,coa_train_schedule,station_id,VARCHAR,NO,Foreign key pointing to stations
+source,coa_train_schedule,arrival_time,TIME,YES,Scheduled arrival time (null for origin station)
+source,coa_train_schedule,departure_time,TIME,YES,Scheduled departure time (null for destination station)
+source,coa_train_schedule,day_of_run,VARCHAR,NO,Weekly days this schedule is active (Daily or Mon, Tue, etc.)
+source,coa_train_schedule,stop_type,VARCHAR,NO,Type of station stop (HALT / PASSING)
+source,coa_corridor_blocks,coa_block_id,VARCHAR,NO,Primary key for block (BLK-###)
+source,coa_corridor_blocks,section_id,VARCHAR,NO,Foreign key pointing to sections
+source,coa_corridor_blocks,block_type,VARCHAR,NO,Type of block (TRAFFIC_BLOCK / POWER_BLOCK / INTEGRATED_BLOCK)
+source,coa_corridor_blocks,planned_start,DATETIME,NO,Planned start time of block
+source,coa_corridor_blocks,planned_end,DATETIME,NO,Planned end time of block
+source,coa_corridor_blocks,actual_start,DATETIME,YES,Actual start time of block (if executed)
+source,coa_corridor_blocks,actual_end,DATETIME,YES,Actual end time of block (if executed)
+source,coa_corridor_blocks,status,VARCHAR,NO,Status of block (PLANNED / REQUESTED / APPROVED / ACTIVE / COMPLETED / CANCELLED)
+source,coa_corridor_blocks,purpose,VARCHAR,NO,Linked purpose or task details
+source,coa_corridor_blocks,requesting_department,VARCHAR,NO,Department requesting block (ENGINEERING / S&T / TRD)
+source,coa_corridor_blocks,task_id,VARCHAR,YES,Foreign key pointing to the maintenance task (if applicable)
+source,coa_block_availability,coa_availability_id,VARCHAR,NO,Primary key for availability slot (AVL-###)
+source,coa_block_availability,section_id,VARCHAR,NO,Foreign key pointing to sections
+source,coa_block_availability,day_of_week,VARCHAR,NO,Day of the week (e.g. Sunday)
+source,coa_block_availability,start_time,TIME,NO,Daily window start time
+source,coa_block_availability,end_time,TIME,NO,Daily window end time
+source,coa_block_availability,block_type,VARCHAR,NO,Type of block available
+source,goods_train_forecast_source,coa_forecast_id,VARCHAR,NO,Primary key for forecast entry (FC-###)
+source,goods_train_forecast_source,section_id,VARCHAR,NO,Foreign key pointing to sections
+source,goods_train_forecast_source,forecast_date,DATE,NO,Target date of goods traffic (YYYY-MM-DD)
+source,goods_train_forecast_source,forecast_hour,INTEGER,NO,Target hour of the day (0-23)
+source,goods_train_forecast_source,estimated_goods_trains_count,INTEGER,NO,Predicted number of goods trains during this hour
+source,goods_train_forecast_source,confidence_score,DECIMAL,NO,Forecast confidence score (0.0 to 1.0)
+source,goods_train_forecast_source,generated_at,DATETIME,NO,Datetime when the forecast was generated (must be before forecast_date)
+canonical,corridors,corridor_id,VARCHAR,NO,Primary key for corridor (e.g. COR-001)
+canonical,corridors,name,VARCHAR,NO,Name of the corridor
+canonical,corridors,code,VARCHAR,NO,Short code of the corridor
+canonical,corridors,length_km,DECIMAL,NO,Total length of the corridor in kilometers
+canonical,sections,section_id,VARCHAR,NO,Primary key for section (e.g. SEC-001)
+canonical,sections,corridor_id,VARCHAR,NO,Foreign key pointing to corridors
+canonical,sections,name,VARCHAR,NO,Name of the section
+canonical,sections,start_km,DECIMAL,NO,Starting kilometer post
+canonical,sections,end_km,DECIMAL,NO,Ending kilometer post
+canonical,sections,line_type,VARCHAR,NO,Line type direction (UP / DOWN / THIRD / FOURTH)
+canonical,stations,station_id,VARCHAR,NO,Primary key for station (e.g. STA-001)
+canonical,stations,corridor_id,VARCHAR,NO,Foreign key pointing to corridors
+canonical,stations,name,VARCHAR,NO,Name of the station
+canonical,stations,code,VARCHAR,NO,Station code (e.g. DLI, GZB)
+canonical,stations,km_post,DECIMAL,NO,Kilometer post location of station
+canonical,departments,department_id,VARCHAR,NO,Primary key for department (e.g. DEP-001)
+canonical,departments,name,VARCHAR,NO,Canonical name of department (ENGINEERING / S&T / TRD)
+canonical,asset_types,asset_type_id,VARCHAR,NO,Primary key for asset type (e.g. AT-001)
+canonical,asset_types,department_id,VARCHAR,NO,Foreign key pointing to departments
+canonical,asset_types,name,VARCHAR,NO,Name of asset type
+canonical,asset_types,description,VARCHAR,YES,Detailed description of the asset type
+canonical,assets,asset_id,VARCHAR,NO,Primary key for asset (AST-###)
+canonical,assets,asset_type_id,VARCHAR,NO,Foreign key pointing to asset types
+canonical,assets,section_id,VARCHAR,NO,Foreign key pointing to sections
+canonical,assets,location_km,DECIMAL,NO,Location kilometer post
+canonical,assets,installation_date,DATE,NO,Date of asset installation
+canonical,assets,status,VARCHAR,NO,Current status of asset
+canonical,assets,last_inspected_date,DATE,YES,Last inspection date
+canonical,inspections,inspection_id,VARCHAR,NO,Primary key for inspection (INS-###)
+canonical,inspections,asset_id,VARCHAR,NO,Foreign key pointing to assets
+canonical,inspections,inspected_by,VARCHAR,NO,Name of the inspector
+canonical,inspections,inspection_date,DATETIME,NO,Date and time of inspection
+canonical,inspections,status,VARCHAR,NO,Inspection completion status
+canonical,inspections,condition_measurements,VARCHAR,YES,JSON string representing metrics recorded (gauge deviation, wear, etc.)
+canonical,inspections,notes,VARCHAR,YES,Remarks from inspector
+canonical,defects,defect_id,VARCHAR,NO,Primary key for defect (DEF-###)
+canonical,defects,asset_id,VARCHAR,NO,Foreign key pointing to assets
+canonical,defects,detected_date,DATETIME,NO,Detection datetime
+canonical,defects,inspection_id,VARCHAR,YES,Foreign key pointing to inspections (null if ad-hoc)
+canonical,defects,defect_type,VARCHAR,NO,Type of defect
+canonical,defects,severity_level,VARCHAR,NO,Severity category (MINOR / MAJOR / CRITICAL)
+canonical,defects,safety_effect,VARCHAR,NO,Safety restriction imposed
+canonical,defects,operational_effect,VARCHAR,NO,Impact on operations
+canonical,defects,status,VARCHAR,NO,Current defect status (OPEN / UNDER_MAINTENANCE / RESOLVED / CLOSED)
+canonical,defects,resolved_date,DATETIME,YES,Datetime when resolved
+canonical,maintenance_tasks,task_id,VARCHAR,NO,Primary key for maintenance task (TASK-###)
+canonical,maintenance_tasks,asset_id,VARCHAR,NO,Foreign key pointing to assets
+canonical,maintenance_tasks,defect_id,VARCHAR,YES,Foreign key pointing to defects (null if preventive)
+canonical,maintenance_tasks,department_id,VARCHAR,NO,Foreign key pointing to departments
+canonical,maintenance_tasks,section_id,VARCHAR,NO,Foreign key pointing to sections
+canonical,maintenance_tasks,task_type,VARCHAR,NO,Type of task (PREVENTIVE / CORRECTIVE / EMERGENCY)
+canonical,maintenance_tasks,planned_start,DATETIME,NO,Planned start time
+canonical,maintenance_tasks,planned_end,DATETIME,NO,Planned end time
+canonical,maintenance_tasks,due_date,DATETIME,NO,Task due date
+canonical,maintenance_tasks,required_block_type,VARCHAR,NO,Required block type
+canonical,maintenance_tasks,estimated_duration_minutes,INTEGER,NO,Estimated duration in minutes
+canonical,maintenance_tasks,status,VARCHAR,NO,Task status (PLANNED / COMPLETED / DEFERRED / CANCELLED)
+canonical,maintenance_history,history_id,VARCHAR,NO,Primary key for execution record (HIST-###)
+canonical,maintenance_history,task_id,VARCHAR,NO,Foreign key pointing to maintenance tasks
+canonical,maintenance_history,actual_start,DATETIME,NO,Actual start datetime
+canonical,maintenance_history,actual_end,DATETIME,NO,Actual end datetime
+canonical,maintenance_history,work_done,VARCHAR,YES,Summary of maintenance work performed
+canonical,maintenance_history,completion_status,VARCHAR,NO,Final completion status
+canonical,maintenance_history,actual_duration_minutes,INTEGER,NO,Actual duration of task
+canonical,maintenance_history,team_lead,VARCHAR,YES,Name of maintenance lead or technician
+canonical,trains,train_id,VARCHAR,NO,Primary key for train (TRN-###)
+canonical,trains,train_number,VARCHAR,NO,5-digit unique train number (e.g. 12056)
+canonical,trains,name,VARCHAR,NO,Name of the train
+canonical,trains,type,VARCHAR,NO,Train category (PASSENGER / EXPRESS / GOODS / MEMU / DEMU)
+canonical,trains,max_speed_kmh,INTEGER,NO,Maximum permissible speed of the train in km/h
+canonical,train_schedules,schedule_id,VARCHAR,NO,Primary key for schedule entry (SCH-###)
+canonical,train_schedules,train_id,VARCHAR,NO,Foreign key pointing to trains
+canonical,train_schedules,station_id,VARCHAR,NO,Foreign key pointing to stations
+canonical,train_schedules,arrival_time,TIME,YES,Scheduled arrival time
+canonical,train_schedules,departure_time,TIME,YES,Scheduled departure time
+canonical,train_schedules,day_of_run,VARCHAR,NO,Weekly days this schedule is active
+canonical,train_schedules,stop_type,VARCHAR,NO,Type of station stop
+canonical,blocks,block_id,VARCHAR,NO,Primary key for block (BLK-###)
+canonical,blocks,section_id,VARCHAR,NO,Foreign key pointing to sections
+canonical,blocks,block_type,VARCHAR,NO,Type of block
+canonical,blocks,planned_start,DATETIME,NO,Planned start time of block
+canonical,blocks,planned_end,DATETIME,NO,Planned end time of block
+canonical,blocks,actual_start,DATETIME,YES,Actual start time of block
+canonical,blocks,actual_end,DATETIME,YES,Actual end time of block
+canonical,blocks,status,VARCHAR,NO,Status of block
+canonical,blocks,purpose,VARCHAR,NO,Linked purpose or task details
+canonical,blocks,requesting_department,VARCHAR,NO,Department requesting block
+canonical,blocks,task_id,VARCHAR,YES,Foreign key pointing to the maintenance task
+canonical,block_availability,availability_id,VARCHAR,NO,Primary key for availability slot (AVL-###)
+canonical,block_availability,section_id,VARCHAR,NO,Foreign key pointing to sections
+canonical,block_availability,day_of_week,VARCHAR,NO,Day of the week
+canonical,block_availability,start_time,TIME,NO,Daily window start time
+canonical,block_availability,end_time,TIME,NO,Daily window end time
+canonical,block_availability,block_type,VARCHAR,NO,Type of block available
+canonical,goods_train_forecast,forecast_id,VARCHAR,NO,Primary key for forecast entry (FC-###)
+canonical,goods_train_forecast,section_id,VARCHAR,NO,Foreign key pointing to sections
+canonical,goods_train_forecast,forecast_date,DATE,NO,Target date of goods traffic
+canonical,goods_train_forecast,forecast_hour,INTEGER,NO,Target hour of the day
+canonical,goods_train_forecast,estimated_goods_trains_count,INTEGER,NO,Predicted number of goods trains during this hour
+canonical,goods_train_forecast,confidence_score,DECIMAL,NO,Forecast confidence score
+canonical,goods_train_forecast,generated_at,DATETIME,NO,Datetime when the forecast was generated

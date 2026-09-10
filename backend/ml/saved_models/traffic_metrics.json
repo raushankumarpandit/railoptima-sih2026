@@ -1,0 +1,15 @@
+{
+  "model_name": "TrafficDensityLevelModel",
+  "algorithm": "GradientBoostingClassifier (sklearn)",
+  "trained_at": "2026-09-09",
+  "train_rows": 10483,
+  "test_rows": 2621,
+  "data_source": "Provided dataset.zip / canonical_reference/goods_train_forecast.csv",
+  "target": "traffic level derived from supplied estimated_goods_trains_count (LOW <=3, MEDIUM <=9, HIGH >9)",
+  "classification": {
+    "accuracy": 0.9649,
+    "precision_macro": 0.4824,
+    "recall_macro": 0.5,
+    "f1_macro": 0.4911
+  }
+}

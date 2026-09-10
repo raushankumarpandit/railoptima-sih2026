@@ -1,0 +1,889 @@
+defect_id,asset_id,detected_date,inspection_id,defect_type,severity_level,safety_effect,operational_effect,status,resolved_date
+DEF-00001,AST-002,2024-02-01T00:00:00,INS-00040,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-02-13T02:20:00
+DEF-00002,AST-002,2026-01-21T00:00:00,INS-00048,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-01-29T02:21:00
+DEF-00003,AST-002,2026-07-20T00:00:00,INS-00050,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-07-20T05:31:00
+DEF-00006,AST-008,2024-04-08T00:00:00,INS-00146,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-04-13T02:16:00
+DEF-00007,AST-008,2026-06-27T00:00:00,INS-00155,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-06-27T08:00:00
+DEF-00010,AST-010,2025-07-17T00:00:00,INS-00200,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-07-17T12:37:00
+DEF-00011,AST-012,2025-03-12T00:00:00,INS-00248,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-03-29T01:58:00
+DEF-00012,AST-012,2026-06-05T00:00:00,INS-00253,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-06-12T12:24:00
+DEF-00013,AST-013,2026-03-28T00:00:00,INS-00264,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-04-16T02:03:00
+DEF-00018,AST-018,2024-01-14T00:00:00,INS-00394,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-01-14T15:46:00
+DEF-00021,AST-023,2025-11-02T00:00:00,INS-00512,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-11-08T02:33:00
+DEF-00034,AST-032,2025-08-12T00:00:00,INS-00757,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-09-05T01:25:00
+DEF-00037,AST-037,2025-11-14T00:00:00,INS-00861,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-11-17T01:58:00
+DEF-00038,AST-038,2024-03-26T00:00:00,INS-00866,REPETITIVE: Track Parameter Deviation,MINOR,No restriction,,CLOSED,2024-04-22T01:19:00
+DEF-00039,AST-038,2025-03-21T00:00:00,INS-00870,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-03-21T14:51:00
+DEF-00047,AST-047,2024-01-04T00:00:00,INS-01058,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-01-04T10:00:00
+DEF-00048,AST-047,2024-09-30T00:00:00,INS-01061,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-09-30T14:29:00
+DEF-00049,AST-047,2025-09-25T00:00:00,INS-01065,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-09-28T02:53:00
+DEF-00057,AST-057,2026-06-29T00:00:00,INS-01308,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-07-02T02:04:00
+DEF-00058,AST-059,2026-07-04T00:00:00,INS-01339,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-07-10T03:00:00
+DEF-00068,AST-066,2024-04-19T00:00:00,INS-01500,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-04-19T08:32:00
+DEF-00069,AST-070,2025-04-30T00:00:00,INS-01566,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-05-02T02:13:00
+DEF-00070,AST-070,2026-07-24T00:00:00,INS-01571,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-07-24T09:15:00
+DEF-00076,AST-077,2024-04-06T00:00:00,INS-01730,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-04-11T02:54:00
+DEF-00077,AST-077,2025-12-27T00:00:00,INS-01737,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-01-08T02:22:00
+DEF-00078,AST-077,2026-03-27T00:00:00,INS-01738,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-04-09T02:03:00
+DEF-00080,AST-081,2024-08-12T00:00:00,INS-01819,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2024-08-30T01:32:00
+DEF-00081,AST-084,2024-12-16T00:00:00,INS-01862,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-12-20T09:26:00
+DEF-00082,AST-084,2025-03-16T00:00:00,INS-01863,REPETITIVE: Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-03-27T01:58:00
+DEF-00083,AST-087,2023-11-02T00:00:00,INS-01894,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2023-11-04T02:07:00
+DEF-00084,AST-087,2026-04-20T00:00:00,INS-01904,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-04-20T14:29:00
+DEF-00085,AST-089,2023-10-12T00:00:00,INS-01918,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2023-10-18T01:54:00
+DEF-00086,AST-090,2024-09-05T00:00:00,INS-01934,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2024-09-15T00:57:00
+DEF-00087,AST-091,2024-06-12T00:00:00,INS-01945,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-06-17T15:02:00
+DEF-00100,AST-102,2025-09-13T00:00:00,INS-02236,REPETITIVE: Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-09-16T07:05:00
+DEF-00101,AST-103,2026-06-16T00:00:00,INS-02251,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-06-16T09:26:00
+DEF-00125,AST-124,2025-06-27T00:00:00,INS-02800,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-06-30T01:51:00
+DEF-00126,AST-125,2024-03-19T00:00:00,INS-02807,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-03-19T15:58:00
+DEF-00139,AST-142,2026-07-06T00:00:00,INS-03203,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-07-27T01:01:00
+DEF-00140,AST-144,2026-07-26T00:00:00,INS-03229,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-07-26T09:11:00
+DEF-00143,AST-148,2024-11-24T00:00:00,INS-03321,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-12-03T02:03:00
+DEF-00144,AST-148,2025-11-19T00:00:00,INS-03325,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-11-25T02:04:00
+DEF-00148,AST-151,2024-02-16T00:00:00,INS-03385,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-02-21T02:25:00
+DEF-00149,AST-154,2026-03-21T00:00:00,INS-03431,REPETITIVE: Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-03-21T09:09:00
+DEF-00155,AST-160,2026-03-14T00:00:00,INS-03563,REPETITIVE: Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-03-16T02:05:00
+DEF-00156,AST-166,2025-07-08T00:00:00,INS-03712,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-07-08T06:23:00
+DEF-00157,AST-166,2026-04-04T00:00:00,INS-03715,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-04-09T03:01:00
+DEF-00158,AST-167,2025-02-04T00:00:00,INS-03723,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-02-21T01:32:00
+DEF-00159,AST-167,2026-01-30T00:00:00,INS-03727,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-02-02T02:22:00
+DEF-00160,AST-167,2026-04-30T00:00:00,INS-03728,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-05-03T03:14:00
+DEF-00181,AST-189,2025-12-27T00:00:00,INS-04271,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-12-30T12:21:00
+DEF-00182,AST-192,2024-11-06T00:00:00,INS-04310,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-11-12T02:21:00
+DEF-00197,AST-201,2024-05-21T00:00:00,INS-04527,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-05-27T02:26:00
+DEF-00199,AST-203,2025-07-25T00:00:00,INS-04562,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-07-31T02:17:00
+DEF-00201,AST-206,2024-09-23T00:00:00,INS-04625,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-09-30T02:02:00
+DEF-00202,AST-206,2025-12-17T00:00:00,INS-04630,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-12-31T00:49:00
+DEF-00218,AST-218,2025-11-11T00:00:00,INS-04909,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-12-06T01:53:00
+DEF-00237,AST-230,2025-12-29T00:00:00,INS-05206,REPETITIVE: Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-01-02T01:57:00
+DEF-00248,AST-235,2025-11-12T00:00:00,INS-05347,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-11-12T08:15:00
+DEF-00249,AST-236,2024-03-10T00:00:00,INS-05352,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-03-17T01:39:00
+DEF-00250,AST-236,2025-09-01T00:00:00,INS-05358,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-09-03T03:04:00
+DEF-00251,AST-237,2025-01-02T00:00:00,INS-05367,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-01-04T02:19:00
+DEF-00255,AST-244,2024-10-01T00:00:00,INS-05536,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-10-01T15:05:00
+DEF-00259,AST-246,2026-01-25T00:00:00,INS-05590,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-01-28T03:07:00
+DEF-00285,AST-261,2025-07-26T00:00:00,INS-05989,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-08-14T02:01:00
+DEF-00286,AST-263,2025-01-05T00:00:00,INS-06011,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-01-14T02:13:00
+DEF-00290,AST-268,2024-04-12T00:00:00,INS-06146,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-04-12T07:56:00
+DEF-00292,AST-270,2025-12-20T00:00:00,INS-06183,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-12-20T07:49:00
+DEF-00302,AST-277,2025-10-26T00:00:00,INS-06360,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-11-01T02:36:00
+DEF-00303,AST-277,2026-04-24T00:00:00,INS-06362,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-05-15T00:48:00
+DEF-00312,AST-282,2025-02-01T00:00:00,INS-06516,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-02-01T14:47:00
+DEF-00313,AST-284,2025-02-09T00:00:00,INS-06547,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-02-16T02:27:00
+DEF-00316,AST-286,2025-04-30T00:00:00,INS-06596,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-05-24T01:08:00
+DEF-00319,AST-289,2024-05-25T00:00:00,INS-06660,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-05-29T12:04:00
+DEF-00325,AST-292,2024-08-27T00:00:00,INS-06745,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2024-09-15T01:56:00
+DEF-00329,AST-295,2024-03-13T00:00:00,INS-06809,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-03-18T03:19:00
+DEF-00330,AST-295,2025-12-03T00:00:00,INS-06816,REPETITIVE: Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-12-07T02:15:00
+DEF-00333,AST-298,2025-08-09T00:00:00,INS-06901,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-08-09T06:23:00
+DEF-00338,AST-301,2024-11-19T00:00:00,INS-06983,REPETITIVE: Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-11-19T11:13:00
+DEF-00347,AST-307,2023-12-08T00:00:00,INS-07117,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2023-12-13T02:13:00
+DEF-00348,AST-307,2024-06-05T00:00:00,INS-07119,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-06-05T15:39:00
+DEF-00349,AST-310,2025-01-02T00:00:00,INS-07157,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-01-08T02:06:00
+DEF-00350,AST-310,2025-12-28T00:00:00,INS-07161,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-01-16T01:28:00
+DEF-00357,AST-318,2023-12-07T00:00:00,INS-07354,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2023-12-12T02:11:00
+DEF-00369,AST-330,2024-04-15T00:00:00,INS-07653,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-04-18T15:21:00
+DEF-00370,AST-331,2024-02-06T00:00:00,INS-07665,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-02-12T02:05:00
+DEF-00375,AST-334,2024-06-05T00:00:00,INS-07733,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2024-06-29T01:27:00
+DEF-00376,AST-334,2025-08-29T00:00:00,INS-07738,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-09-05T02:01:00
+DEF-00377,AST-335,2025-04-03T00:00:00,INS-07748,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-04-03T11:21:00
+DEF-00380,AST-339,2026-03-06T00:00:00,INS-07848,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-03-16T02:29:00
+DEF-00392,AST-347,2024-06-04T00:00:00,INS-08058,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2024-06-27T01:14:00
+DEF-00397,AST-349,2024-06-05T00:00:00,INS-08106,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-06-05T15:33:00
+DEF-00398,AST-349,2025-03-02T00:00:00,INS-08109,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-03-02T17:42:00
+DEF-00399,AST-349,2025-05-31T00:00:00,INS-08110,REPETITIVE: Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-06-02T02:17:00
+DEF-00401,AST-354,2023-08-12T00:00:00,INS-08193,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2023-08-26T01:30:00
+DEF-00402,AST-354,2025-10-30T00:00:00,INS-08202,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-11-21T01:18:00
+DEF-00410,AST-360,2024-10-05T00:00:00,INS-08369,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-10-05T11:00:00
+DEF-00411,AST-360,2025-01-03T00:00:00,INS-08370,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-01-03T12:25:00
+DEF-00423,AST-367,2026-04-09T00:00:00,INS-08568,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-04-25T01:23:00
+DEF-00429,AST-372,2025-01-11T00:00:00,INS-08648,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-01-11T15:40:00
+DEF-00430,AST-372,2026-04-06T00:00:00,INS-08653,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-04-28T01:17:00
+DEF-00436,AST-376,2023-10-14T00:00:00,INS-08746,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2023-11-06T01:53:00
+DEF-00446,AST-389,2024-10-29T00:00:00,INS-09031,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-11-01T02:27:00
+DEF-00448,AST-391,2026-01-27T00:00:00,INS-09086,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-01-27T11:23:00
+DEF-00455,AST-396,2025-01-19T00:00:00,INS-09198,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-01-19T11:09:00
+DEF-00456,AST-396,2025-10-16T00:00:00,INS-09201,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-10-24T02:18:00
+DEF-00457,AST-397,2024-05-14T00:00:00,INS-09208,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-05-18T01:53:00
+DEF-00458,AST-397,2024-08-12T00:00:00,INS-09209,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-08-12T08:30:00
+DEF-00459,AST-397,2025-02-08T00:00:00,INS-09211,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-02-08T10:54:00
+DEF-00462,AST-399,2024-05-26T00:00:00,INS-09256,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2024-06-15T01:21:00
+DEF-00465,AST-402,2024-12-21T00:00:00,INS-09342,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-12-25T09:00:00
+DEF-00468,AST-408,2025-04-12T00:00:00,INS-09469,REPETITIVE: Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-05-04T01:06:00
+DEF-00469,AST-408,2025-07-11T00:00:00,INS-09470,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-07-11T16:36:00
+DEF-00473,AST-411,2023-11-30T00:00:00,INS-09549,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2023-12-15T01:33:00
+DEF-00474,AST-411,2024-08-26T00:00:00,INS-09552,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2024-09-17T01:49:00
+DEF-00488,AST-428,2024-04-29T00:00:00,INS-09941,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-05-03T03:09:00
+DEF-00489,AST-428,2026-04-19T00:00:00,INS-09949,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-05-14T01:42:00
+DEF-00494,AST-432,2026-07-19T00:00:00,INS-10049,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-07-19T05:51:00
+DEF-00503,AST-440,2025-11-29T00:00:00,INS-10248,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-12-14T02:03:00
+DEF-00513,AST-451,2024-05-03T00:00:00,INS-10494,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-05-05T02:45:00
+DEF-00515,AST-454,2024-12-30T00:00:00,INS-10581,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-01-03T02:35:00
+DEF-00517,AST-457,2024-05-30T00:00:00,INS-10640,REPETITIVE: Track Parameter Deviation,MINOR,No restriction,,CLOSED,2024-06-16T01:58:00
+DEF-00519,AST-460,2023-08-22T00:00:00,INS-10679,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2023-09-18T01:25:00
+DEF-00520,AST-461,2024-04-02T00:00:00,INS-10693,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-04-02T12:07:00
+DEF-00521,AST-461,2025-12-23T00:00:00,INS-10700,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-01-23T01:14:00
+DEF-00530,AST-475,2025-01-28T00:00:00,INS-11026,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-02-01T02:10:00
+DEF-00531,AST-475,2025-07-27T00:00:00,INS-11028,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-08-01T02:28:00
+DEF-00535,AST-479,2025-06-14T00:00:00,INS-11114,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-07-01T01:02:00
+DEF-00536,AST-479,2025-12-11T00:00:00,INS-11116,Excessive Rail Wear,MINOR,No restriction,,CLOSED,2025-12-31T01:03:00
+DEF-00537,AST-479,2026-06-09T00:00:00,INS-11118,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-06-14T02:38:00
+DEF-00538,AST-480,2024-06-25T00:00:00,INS-11122,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-06-25T10:26:00
+DEF-00539,AST-480,2024-09-23T00:00:00,INS-11123,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2024-10-06T01:44:00
+DEF-00540,AST-480,2025-06-20T00:00:00,INS-11126,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-06-25T02:10:00
+DEF-00541,AST-481,2024-10-17T00:00:00,INS-11135,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-10-17T15:03:00
+DEF-00542,AST-481,2025-10-12T00:00:00,INS-11139,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-10-12T06:44:00
+DEF-00543,AST-481,2026-01-10T00:00:00,INS-11140,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-01-13T02:37:00
+DEF-00549,AST-488,2024-07-04T00:00:00,INS-11278,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-07-04T08:09:00
+DEF-00554,AST-490,2024-10-14T00:00:00,INS-11328,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-10-14T08:42:00
+DEF-00555,AST-490,2025-01-12T00:00:00,INS-11329,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-02-01T01:06:00
+DEF-00556,AST-490,2026-04-07T00:00:00,INS-11334,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-04-07T16:11:00
+DEF-00561,AST-494,2023-12-27T00:00:00,INS-11385,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2023-12-30T02:18:00
+DEF-00562,AST-494,2024-06-24T00:00:00,INS-11387,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-06-24T06:00:00
+DEF-00563,AST-495,2024-09-23T00:00:00,INS-11400,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-09-26T11:23:00
+DEF-00582,AST-510,2026-03-15T00:00:00,INS-11771,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-03-21T02:19:00
+DEF-00584,AST-512,2024-01-20T00:00:00,INS-11810,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-01-20T08:22:00
+DEF-00585,AST-512,2025-10-11T00:00:00,INS-11817,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-10-20T10:08:00
+DEF-00587,AST-516,2026-01-15T00:00:00,INS-11891,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-01-15T07:13:00
+DEF-00597,AST-525,2024-04-08T00:00:00,INS-12099,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-04-11T02:57:00
+DEF-00598,AST-525,2026-06-27T00:00:00,INS-12108,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-07-07T01:20:00
+DEF-00599,AST-528,2024-10-25T00:00:00,INS-12138,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-10-25T10:28:00
+DEF-00600,AST-528,2025-01-23T00:00:00,INS-12139,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-02-16T01:28:00
+DEF-00609,AST-535,2023-11-16T00:00:00,INS-12305,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2023-11-16T09:38:00
+DEF-00610,AST-535,2024-05-14T00:00:00,INS-12307,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-05-16T02:44:00
+DEF-00611,AST-535,2026-05-04T00:00:00,INS-12315,REPETITIVE: Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-05-19T02:17:00
+DEF-00612,AST-536,2025-05-03T00:00:00,INS-12323,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-05-03T15:00:00
+DEF-00614,AST-539,2024-03-03T00:00:00,INS-12380,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-03-03T16:27:00
+DEF-00616,AST-541,2025-07-23T00:00:00,INS-12416,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-07-26T02:04:00
+DEF-00617,AST-542,2024-12-30T00:00:00,INS-12426,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-12-30T08:45:00
+DEF-00618,AST-542,2025-06-28T00:00:00,INS-12428,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-07-15T01:03:00
+DEF-00619,AST-542,2025-09-26T00:00:00,INS-12429,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-10-05T02:23:00
+DEF-00620,AST-543,2025-04-01T00:00:00,INS-12439,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-04-01T12:50:00
+DEF-00625,AST-546,2023-10-04T00:00:00,INS-12518,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2023-10-08T02:01:00
+DEF-00627,AST-549,2025-12-10T00:00:00,INS-12575,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-12-29T01:58:00
+DEF-00635,AST-555,2025-10-24T00:00:00,INS-12671,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-11-05T02:03:00
+DEF-00647,AST-567,2026-04-18T00:00:00,INS-12986,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-04-18T08:17:00
+DEF-00653,AST-571,2023-09-19T00:00:00,INS-13062,REPETITIVE: Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2023-10-03T02:04:00
+DEF-00658,AST-576,2024-10-22T00:00:00,INS-13200,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-10-29T02:48:00
+DEF-00662,AST-580,2024-03-26T00:00:00,INS-13295,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-04-04T10:30:00
+DEF-00665,AST-582,2024-09-06T00:00:00,INS-13345,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-09-09T00:00:00
+DEF-00673,AST-593,2024-12-09T00:00:00,INS-13571,REPETITIVE: Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-12-09T06:42:00
+DEF-00680,AST-599,2023-11-15T00:00:00,INS-13701,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2023-11-22T02:52:00
+DEF-00696,AST-616,2024-08-28T00:00:00,INS-14067,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-09-03T03:11:00
+DEF-00697,AST-617,2025-01-16T00:00:00,INS-14080,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-01-16T16:18:00
+DEF-00698,AST-617,2026-01-11T00:00:00,INS-14084,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-01-11T08:00:00
+DEF-00703,AST-621,2025-05-31T00:00:00,INS-14161,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-06-06T02:55:00
+DEF-00704,AST-621,2026-05-26T00:00:00,INS-14165,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-05-26T05:33:00
+DEF-00707,AST-623,2025-03-20T00:00:00,INS-14190,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-03-30T06:03:00
+DEF-00708,AST-629,2026-01-10T00:00:00,INS-14295,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-01-10T14:04:00
+DEF-00710,AST-631,2023-11-17T00:00:00,INS-14317,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2023-11-22T02:59:00
+DEF-00719,AST-640,2024-09-29T00:00:00,INS-14527,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-10-11T02:02:00
+DEF-00731,AST-648,2024-12-03T00:00:00,INS-14736,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-12-10T02:25:00
+DEF-00733,AST-655,2025-08-21T00:00:00,INS-14841,REPETITIVE: Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-08-24T02:47:00
+DEF-00735,AST-659,2025-08-26T00:00:00,INS-14919,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-09-03T15:13:00
+DEF-00738,AST-662,2025-12-24T00:00:00,INS-14968,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-12-27T02:01:00
+DEF-00739,AST-662,2026-06-22T00:00:00,INS-14970,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-07-18T01:10:00
+DEF-00743,AST-666,2026-03-08T00:00:00,INS-15054,REPETITIVE: Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-03-29T02:06:00
+DEF-00750,AST-670,2024-03-16T00:00:00,INS-15150,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2024-04-10T01:12:00
+DEF-00757,AST-679,2025-03-09T00:00:00,INS-15364,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-03-09T05:35:00
+DEF-00758,AST-680,2024-08-09T00:00:00,INS-15374,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-08-13T12:21:00
+DEF-00767,AST-694,2024-07-03T00:00:00,INS-15667,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-07-07T03:02:00
+DEF-00771,AST-697,2023-11-27T00:00:00,INS-15714,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2023-12-20T01:17:00
+DEF-00772,AST-697,2024-02-25T00:00:00,INS-15715,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-02-25T13:17:00
+DEF-00775,AST-700,2026-01-19T00:00:00,INS-15791,REPETITIVE: Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2026-01-26T02:20:00
+DEF-00776,AST-702,2024-11-27T00:00:00,INS-15817,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-12-09T02:19:00
+DEF-00785,AST-707,2024-02-21T00:00:00,INS-15936,REPETITIVE: Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-02-21T09:15:00
+DEF-00786,AST-707,2024-11-17T00:00:00,INS-15939,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-11-20T03:05:00
+DEF-00787,AST-712,2025-06-16T00:00:00,INS-16007,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-06-16T08:58:00
+DEF-00788,AST-712,2025-12-13T00:00:00,INS-16009,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-12-15T02:19:00
+DEF-00797,AST-716,2024-05-26T00:00:00,INS-16106,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-05-26T12:26:00
+DEF-00800,AST-718,2025-10-24T00:00:00,INS-16143,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-10-27T01:49:00
+DEF-00801,AST-718,2026-04-22T00:00:00,INS-16145,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-05-08T01:08:00
+DEF-00802,AST-719,2026-07-18T00:00:00,INS-16159,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-07-18T11:46:00
+DEF-00803,AST-720,2024-02-18T00:00:00,INS-16162,Excessive Rail Wear,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2024-02-21T05:18:00
+DEF-00804,AST-720,2025-11-09T00:00:00,INS-16169,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2025-11-20T02:13:00
+DEF-00805,AST-720,2026-02-07T00:00:00,INS-16170,REPETITIVE: Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-02-07T17:31:00
+DEF-00808,AST-728,2024-03-12T00:00:00,INS-16297,Track Parameter Deviation,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2024-03-15T02:36:00
+DEF-00809,AST-728,2025-06-05T00:00:00,INS-16302,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-06-13T09:26:00
+DEF-00810,AST-728,2026-03-02T00:00:00,INS-16305,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2026-03-25T01:23:00
+DEF-00815,AST-732,2025-06-03T00:00:00,INS-16362,Track Parameter Deviation,MINOR,No restriction,,CLOSED,2025-06-18T01:02:00
+DEF-00816,AST-734,2023-08-08T00:00:00,INS-16385,Excessive Rail Wear,MAJOR,Speed restriction 30 km/h,Speed Restriction,CLOSED,2023-08-16T02:04:00
+DEF-00817,AST-735,2026-03-06T00:00:00,INS-16408,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2026-03-06T12:00:00
+DEF-00835,AST-747,2025-09-24T00:00:00,INS-16685,Track Parameter Deviation,CRITICAL,Speed restriction 15 km/h,Speed Restriction,CLOSED,2025-10-01T07:22:00
+DEF-00836,AST-003,2025-05-15T08:00:00,,Sudden Rail Fracture,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2025-05-15T13:30:00
+DEF-00837,AST-027,2025-05-11T06:00:00,,Turnout Obstruction,CRITICAL,Suspension of traffic,Block Required,CLOSED,2025-05-11T10:23:00
+DEF-00841,AST-059,2024-09-20T05:00:00,,Sleeper Dislodgement,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2024-09-20T12:31:00
+DEF-00845,AST-094,2023-12-31T21:00:00,,Sleeper Dislodgement,CRITICAL,Suspension of traffic,Block Required,CLOSED,2024-01-01T02:49:00
+DEF-00846,AST-141,2026-02-18T20:00:00,,Sudden Rail Fracture,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2026-02-19T00:30:00
+DEF-00848,AST-155,2025-07-12T20:00:00,,Sleeper Dislodgement,CRITICAL,Suspension of traffic,Block Required,CLOSED,2025-07-13T00:29:00
+DEF-00849,AST-167,2026-03-25T22:00:00,,Turnout Obstruction,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2026-03-26T02:34:00
+DEF-00852,AST-246,2025-12-16T11:00:00,,Sleeper Dislodgement,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2025-12-16T17:13:00
+DEF-00855,AST-261,2023-09-21T01:00:00,,Sleeper Dislodgement,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2023-09-21T08:23:00
+DEF-00862,AST-368,2025-12-14T03:00:00,,Sleeper Dislodgement,CRITICAL,Suspension of traffic,Block Required,CLOSED,2025-12-14T08:48:00
+DEF-00863,AST-371,2024-10-01T09:00:00,,Turnout Obstruction,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2024-10-01T13:38:00
+DEF-00864,AST-372,2025-12-13T04:00:00,,Sudden Rail Fracture,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2025-12-13T11:06:00
+DEF-00866,AST-376,2023-12-09T08:00:00,,Sudden Rail Fracture,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2023-12-09T15:42:00
+DEF-00867,AST-391,2024-06-10T04:00:00,,Sudden Rail Fracture,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2024-06-10T11:26:00
+DEF-00869,AST-420,2025-06-11T12:00:00,,Turnout Obstruction,CRITICAL,Suspension of traffic,Block Required,CLOSED,2025-06-11T15:59:00
+DEF-00870,AST-448,2024-03-15T16:00:00,,Turnout Obstruction,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2024-03-15T21:32:00
+DEF-00878,AST-571,2024-07-02T16:00:00,,Sudden Rail Fracture,CRITICAL,Suspension of traffic,Block Required,CLOSED,2024-07-02T22:26:00
+DEF-00879,AST-576,2026-01-03T05:00:00,,Turnout Obstruction,CRITICAL,Suspension of traffic,Block Required,CLOSED,2026-01-03T12:21:00
+DEF-00882,AST-653,2025-10-06T21:00:00,,Turnout Obstruction,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2025-10-07T02:15:00
+DEF-00884,AST-679,2026-06-29T16:00:00,,Sudden Rail Fracture,CRITICAL,Suspension of traffic,Block Required,CLOSED,2026-06-29T20:24:00
+DEF-00885,AST-709,2024-01-13T21:00:00,,Sleeper Dislodgement,MAJOR,Speed restriction 30 km/h,Block Required,CLOSED,2024-01-14T02:39:00
+DEF-00004,AST-005,2025-10-30T00:00:00,INS-00103,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-11-14T00:38:00
+DEF-00008,AST-009,2025-01-01T00:00:00,INS-00173,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-01-18T01:52:00
+DEF-00009,AST-009,2026-07-25T00:00:00,INS-00192,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-07-25T14:07:00
+DEF-00014,AST-014,2026-01-23T00:00:00,INS-00296,REPETITIVE: Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-01-23T04:34:00
+DEF-00015,AST-014,2026-02-22T00:00:00,INS-00297,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-03-16T00:33:00
+DEF-00016,AST-014,2026-03-24T00:00:00,INS-00298,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-03-24T12:58:00
+DEF-00017,AST-015,2024-04-24T00:00:00,INS-00311,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-04-24T15:24:00
+DEF-00019,AST-020,2024-08-29T00:00:00,INS-00430,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-08-29T05:56:00
+DEF-00020,AST-021,2024-02-09T00:00:00,INS-00460,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-02-26T00:35:00
+DEF-00022,AST-024,2025-05-23T00:00:00,INS-00538,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-06-10T00:44:00
+DEF-00023,AST-026,2024-01-31T00:00:00,INS-00577,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-02-24T00:00:00
+DEF-00024,AST-026,2024-12-26T00:00:00,INS-00588,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-12-31T02:37:00
+DEF-00025,AST-026,2025-01-25T00:00:00,INS-00589,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-01-27T01:42:00
+DEF-00026,AST-026,2026-02-19T00:00:00,INS-00602,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-03-16T00:29:00
+DEF-00027,AST-026,2026-07-19T00:00:00,INS-00607,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-07-24T00:00:00
+DEF-00028,AST-028,2024-03-04T00:00:00,INS-00627,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-03-04T07:08:00
+DEF-00029,AST-030,2023-09-12T00:00:00,INS-00676,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2023-09-24T00:38:00
+DEF-00030,AST-030,2026-02-28T00:00:00,INS-00706,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-03-14T00:00:00
+DEF-00031,AST-030,2026-03-30T00:00:00,INS-00707,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-04-01T02:09:00
+DEF-00032,AST-031,2024-04-09T00:00:00,INS-00720,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-04-27T01:13:00
+DEF-00033,AST-031,2024-10-06T00:00:00,INS-00726,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-10-13T01:33:00
+DEF-00040,AST-040,2024-12-21T00:00:00,INS-00904,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-12-21T07:46:00
+DEF-00041,AST-040,2025-02-19T00:00:00,INS-00906,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-02-21T02:27:00
+DEF-00042,AST-040,2026-04-15T00:00:00,INS-00920,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-05-05T00:30:00
+DEF-00043,AST-042,2024-05-25T00:00:00,INS-00952,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-05-28T02:24:00
+DEF-00044,AST-042,2025-05-20T00:00:00,INS-00964,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-05-20T04:28:00
+DEF-00045,AST-043,2024-06-25T00:00:00,INS-00989,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-07-20T01:11:00
+DEF-00050,AST-049,2024-11-28T00:00:00,INS-01097,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-12-19T01:05:00
+DEF-00052,AST-051,2025-11-16T00:00:00,INS-01164,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-11-29T00:59:00
+DEF-00055,AST-055,2025-08-05T00:00:00,INS-01247,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-08-11T01:39:00
+DEF-00056,AST-056,2026-05-19T00:00:00,INS-01294,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-06-08T01:14:00
+DEF-00059,AST-060,2023-12-25T00:00:00,INS-01344,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-01-14T01:52:00
+DEF-00060,AST-060,2025-04-18T00:00:00,INS-01360,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-04-30T01:20:00
+DEF-00061,AST-060,2025-08-16T00:00:00,INS-01364,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-09-16T00:50:00
+DEF-00062,AST-061,2024-12-28T00:00:00,INS-01393,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-01-04T01:44:00
+DEF-00063,AST-061,2025-06-26T00:00:00,INS-01399,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-06-26T08:47:00
+DEF-00064,AST-061,2025-10-24T00:00:00,INS-01403,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-11-14T01:41:00
+DEF-00065,AST-061,2026-05-22T00:00:00,INS-01410,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-05-29T02:26:00
+DEF-00066,AST-062,2026-05-31T00:00:00,INS-01447,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-05-31T01:00:00
+DEF-00071,AST-071,2024-09-24T00:00:00,INS-01585,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-10-06T01:04:00
+DEF-00073,AST-074,2025-03-22T00:00:00,INS-01657,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-03-24T02:24:00
+DEF-00074,AST-074,2025-10-18T00:00:00,INS-01664,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-11-05T00:30:00
+DEF-00075,AST-076,2025-10-06T00:00:00,INS-01718,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-10-30T01:32:00
+DEF-00079,AST-078,2025-05-04T00:00:00,INS-01761,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-05-21T01:01:00
+DEF-00088,AST-093,2023-10-08T00:00:00,INS-01974,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-10-18T00:00:00
+DEF-00089,AST-093,2024-03-06T00:00:00,INS-01979,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-03-29T01:00:00
+DEF-00090,AST-093,2025-09-27T00:00:00,INS-01998,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-10-10T00:35:00
+DEF-00091,AST-093,2025-11-26T00:00:00,INS-02000,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-11-29T01:49:00
+DEF-00092,AST-093,2025-12-26T00:00:00,INS-02001,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-01-06T01:13:00
+DEF-00093,AST-095,2023-10-30T00:00:00,INS-02023,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-11-24T00:57:00
+DEF-00094,AST-096,2025-09-18T00:00:00,INS-02082,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-10-19T01:01:00
+DEF-00095,AST-098,2024-07-03T00:00:00,INS-02116,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-07-07T02:46:00
+DEF-00096,AST-098,2025-02-28T00:00:00,INS-02124,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-03-16T01:18:00
+DEF-00097,AST-099,2025-06-29T00:00:00,INS-02165,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-07-23T00:45:00
+DEF-00098,AST-100,2024-02-03T00:00:00,INS-02185,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-02-10T01:30:00
+DEF-00099,AST-100,2025-07-27T00:00:00,INS-02203,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-08-21T00:00:00
+DEF-00102,AST-104,2024-01-07T00:00:00,INS-02257,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-02-06T00:57:00
+DEF-00103,AST-104,2025-07-30T00:00:00,INS-02276,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-08-11T01:03:00
+DEF-00104,AST-104,2026-07-25T00:00:00,INS-02288,Poor Signal Aspect Visibility,MINOR,No restriction,,OPEN,
+DEF-00105,AST-105,2024-11-17T00:00:00,INS-02304,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-11-17T05:22:00
+DEF-00106,AST-105,2025-02-15T00:00:00,INS-02307,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-03-07T00:00:00
+DEF-00107,AST-105,2025-09-13T00:00:00,INS-02314,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-09-20T01:48:00
+DEF-00108,AST-105,2025-11-12T00:00:00,INS-02316,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-12-10T01:06:00
+DEF-00109,AST-107,2023-09-20T00:00:00,INS-02362,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2023-10-18T00:49:00
+DEF-00112,AST-114,2023-11-27T00:00:00,INS-02533,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2023-11-29T02:14:00
+DEF-00113,AST-114,2024-02-25T00:00:00,INS-02536,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-03-18T01:18:00
+DEF-00114,AST-114,2025-09-17T00:00:00,INS-02555,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-09-17T08:55:00
+DEF-00115,AST-114,2026-06-14T00:00:00,INS-02564,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-06-20T01:32:00
+DEF-00116,AST-114,2026-07-14T00:00:00,INS-02565,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-07-20T01:23:00
+DEF-00117,AST-115,2024-07-06T00:00:00,INS-02577,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-07-31T01:05:00
+DEF-00118,AST-115,2025-11-28T00:00:00,INS-02594,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-12-22T01:14:00
+DEF-00119,AST-118,2025-10-17T00:00:00,INS-02660,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-10-22T09:04:00
+DEF-00120,AST-118,2026-04-15T00:00:00,INS-02666,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-05-08T00:53:00
+DEF-00122,AST-122,2024-06-02T00:00:00,INS-02747,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-06-04T01:48:00
+DEF-00123,AST-122,2025-04-28T00:00:00,INS-02758,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-05-04T02:18:00
+DEF-00124,AST-122,2025-07-27T00:00:00,INS-02761,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-08-07T00:55:00
+DEF-00128,AST-129,2024-10-23T00:00:00,INS-02874,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-10-29T08:26:00
+DEF-00129,AST-129,2024-11-22T00:00:00,INS-02875,REPETITIVE: Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-11-22T07:24:00
+DEF-00130,AST-130,2023-08-06T00:00:00,INS-02896,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2023-08-23T01:46:00
+DEF-00131,AST-130,2025-09-24T00:00:00,INS-02922,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-09-28T01:33:00
+DEF-00132,AST-131,2023-11-03T00:00:00,INS-02936,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-11-24T01:04:00
+DEF-00135,AST-138,2025-02-04T00:00:00,INS-03104,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-02-17T01:04:00
+DEF-00136,AST-139,2024-07-10T00:00:00,INS-03134,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-07-20T13:11:00
+DEF-00137,AST-139,2024-08-09T00:00:00,INS-03135,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-08-31T00:32:00
+DEF-00138,AST-139,2026-04-01T00:00:00,INS-03155,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-04-14T01:41:00
+DEF-00141,AST-145,2025-08-30T00:00:00,INS-03255,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-09-21T00:36:00
+DEF-00142,AST-147,2025-09-14T00:00:00,INS-03305,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-09-19T09:24:00
+DEF-00145,AST-149,2024-04-30T00:00:00,INS-03337,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-04-30T05:00:00
+DEF-00146,AST-149,2025-03-26T00:00:00,INS-03348,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-04-27T01:15:00
+DEF-00147,AST-149,2025-04-25T00:00:00,INS-03349,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-05-05T01:05:00
+DEF-00151,AST-157,2024-07-17T00:00:00,INS-03474,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-08-09T01:10:00
+DEF-00152,AST-157,2026-07-07T00:00:00,INS-03498,REPETITIVE: Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-07-07T04:40:00
+DEF-00154,AST-159,2023-10-18T00:00:00,INS-03519,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2023-10-24T02:10:00
+DEF-00162,AST-170,2025-05-19T00:00:00,INS-03787,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-06-06T01:07:00
+DEF-00163,AST-170,2026-01-14T00:00:00,INS-03795,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-01-28T01:31:00
+DEF-00165,AST-172,2025-01-07T00:00:00,INS-03837,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-02-01T00:56:00
+DEF-00166,AST-172,2026-01-02T00:00:00,INS-03849,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-02-04T01:15:00
+DEF-00167,AST-173,2026-03-11T00:00:00,INS-03888,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-04-02T01:01:00
+DEF-00168,AST-177,2024-10-01T00:00:00,INS-03973,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-10-01T09:45:00
+DEF-00169,AST-177,2025-01-29T00:00:00,INS-03977,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-02-14T01:36:00
+DEF-00170,AST-179,2024-05-21T00:00:00,INS-04017,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-05-21T12:44:00
+DEF-00171,AST-179,2025-06-15T00:00:00,INS-04030,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-07-02T01:14:00
+DEF-00172,AST-179,2026-03-12T00:00:00,INS-04039,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-03-28T00:52:00
+DEF-00173,AST-181,2023-12-10T00:00:00,INS-04060,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-12-23T01:17:00
+DEF-00174,AST-181,2025-11-29T00:00:00,INS-04084,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-12-10T01:35:00
+DEF-00176,AST-184,2026-05-13T00:00:00,INS-04156,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-05-20T01:15:00
+DEF-00178,AST-187,2025-04-25T00:00:00,INS-04210,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-05-04T10:27:00
+DEF-00179,AST-188,2024-01-19T00:00:00,INS-04231,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-02-07T01:36:00
+DEF-00180,AST-188,2025-02-12T00:00:00,INS-04244,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-03-01T00:54:00
+DEF-00185,AST-194,2024-11-03T00:00:00,INS-04351,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-11-22T01:08:00
+DEF-00186,AST-194,2025-07-31T00:00:00,INS-04360,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-08-07T04:05:00
+DEF-00187,AST-194,2025-09-29T00:00:00,INS-04362,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-10-09T01:36:00
+DEF-00188,AST-194,2026-04-27T00:00:00,INS-04369,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-04-30T01:23:00
+DEF-00189,AST-195,2025-01-15T00:00:00,INS-04390,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-02-11T00:51:00
+DEF-00190,AST-195,2025-07-14T00:00:00,INS-04396,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-02T00:52:00
+DEF-00191,AST-195,2025-10-12T00:00:00,INS-04399,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-10-31T00:45:00
+DEF-00192,AST-195,2026-03-11T00:00:00,INS-04404,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-04-02T01:21:00
+DEF-00193,AST-200,2023-08-27T00:00:00,INS-04488,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2023-09-27T00:53:00
+DEF-00194,AST-200,2024-06-22T00:00:00,INS-04498,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-07-17T00:40:00
+DEF-00195,AST-200,2025-05-18T00:00:00,INS-04509,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-06-02T00:53:00
+DEF-00196,AST-200,2026-05-13T00:00:00,INS-04521,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-05-20T02:06:00
+DEF-00200,AST-205,2026-04-13T00:00:00,INS-04617,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-05-07T00:50:00
+DEF-00205,AST-210,2024-09-28T00:00:00,INS-04714,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-10-24T01:12:00
+DEF-00208,AST-213,2024-05-19T00:00:00,INS-04776,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-05-19T12:43:00
+DEF-00209,AST-213,2024-08-17T00:00:00,INS-04779,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-08-22T01:40:00
+DEF-00210,AST-213,2025-05-14T00:00:00,INS-04788,REPETITIVE: Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-05-14T13:24:00
+DEF-00211,AST-213,2025-07-13T00:00:00,INS-04790,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-07-15T01:44:00
+DEF-00212,AST-213,2026-02-08T00:00:00,INS-04797,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-02-21T00:33:00
+DEF-00213,AST-213,2026-04-09T00:00:00,INS-04799,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-04-18T01:30:00
+DEF-00214,AST-214,2024-01-07T00:00:00,INS-04808,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-01-07T14:34:00
+DEF-00215,AST-214,2025-05-31T00:00:00,INS-04825,REPETITIVE: Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-06-07T02:05:00
+DEF-00216,AST-217,2024-06-20T00:00:00,INS-04874,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-07-20T01:01:00
+DEF-00217,AST-217,2026-02-10T00:00:00,INS-04894,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-02-15T01:38:00
+DEF-00219,AST-221,2023-09-16T00:00:00,INS-04949,REPETITIVE: Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2023-09-16T05:22:00
+DEF-00220,AST-221,2024-06-12T00:00:00,INS-04958,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-07-03T01:07:00
+DEF-00221,AST-221,2024-11-09T00:00:00,INS-04963,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-12-01T01:30:00
+DEF-00222,AST-221,2026-02-02T00:00:00,INS-04978,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-02-06T01:24:00
+DEF-00223,AST-223,2024-10-06T00:00:00,INS-05016,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-10-29T00:51:00
+DEF-00224,AST-223,2024-12-05T00:00:00,INS-05018,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-12-30T01:00:00
+DEF-00225,AST-224,2026-01-22T00:00:00,INS-05069,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-02-03T00:00:00
+DEF-00226,AST-224,2026-02-21T00:00:00,INS-05070,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-02-26T02:30:00
+DEF-00227,AST-226,2025-04-11T00:00:00,INS-05108,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-05-10T00:46:00
+DEF-00228,AST-226,2025-08-09T00:00:00,INS-05112,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-30T00:46:00
+DEF-00229,AST-226,2026-06-05T00:00:00,INS-05122,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-06-17T01:33:00
+DEF-00232,AST-228,2025-02-05T00:00:00,INS-05160,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-02-08T13:05:00
+DEF-00233,AST-228,2025-03-07T00:00:00,INS-05161,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-03-14T02:15:00
+DEF-00234,AST-228,2026-01-01T00:00:00,INS-05171,REPETITIVE: Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-01-15T01:43:00
+DEF-00238,AST-231,2024-02-03T00:00:00,INS-05215,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-02-19T00:56:00
+DEF-00239,AST-231,2024-11-29T00:00:00,INS-05225,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-12-15T00:50:00
+DEF-00240,AST-231,2025-07-27T00:00:00,INS-05233,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-06T01:11:00
+DEF-00241,AST-231,2026-06-22T00:00:00,INS-05244,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-07-03T01:37:00
+DEF-00244,AST-233,2023-10-01T00:00:00,INS-05267,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-10-24T01:08:00
+DEF-00245,AST-233,2024-06-27T00:00:00,INS-05276,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-07-08T01:25:00
+DEF-00246,AST-234,2023-08-22T00:00:00,INS-05302,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-09-08T00:50:00
+DEF-00247,AST-234,2023-12-20T00:00:00,INS-05306,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2023-12-28T01:52:00
+DEF-00252,AST-239,2024-09-18T00:00:00,INS-05405,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-09-30T01:33:00
+DEF-00253,AST-239,2025-10-13T00:00:00,INS-05418,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-10-13T15:32:00
+DEF-00254,AST-239,2026-03-12T00:00:00,INS-05423,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-03-12T08:07:00
+DEF-00256,AST-245,2024-12-09T00:00:00,INS-05560,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-12-13T01:37:00
+DEF-00257,AST-245,2025-05-08T00:00:00,INS-05565,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-05-22T01:37:00
+DEF-00258,AST-245,2026-02-02T00:00:00,INS-05574,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-02-24T00:34:00
+DEF-00262,AST-248,2023-12-06T00:00:00,INS-05615,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2023-12-19T01:17:00
+DEF-00263,AST-248,2024-08-02T00:00:00,INS-05623,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-08-02T12:56:00
+DEF-00264,AST-248,2025-03-30T00:00:00,INS-05631,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-03-30T06:32:00
+DEF-00266,AST-251,2023-08-19T00:00:00,INS-05678,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2023-08-31T00:00:00
+DEF-00267,AST-251,2024-08-13T00:00:00,INS-05690,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-08-20T01:29:00
+DEF-00268,AST-252,2024-12-23T00:00:00,INS-05730,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-01-13T01:04:00
+DEF-00269,AST-252,2025-01-22T00:00:00,INS-05731,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-02-09T00:49:00
+DEF-00270,AST-252,2025-12-18T00:00:00,INS-05742,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-01-01T00:42:00
+DEF-00271,AST-255,2024-03-19T00:00:00,INS-05812,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-03-31T00:59:00
+DEF-00272,AST-255,2024-11-14T00:00:00,INS-05820,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-12-01T01:16:00
+DEF-00273,AST-256,2025-04-01T00:00:00,INS-05861,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-04-01T09:07:00
+DEF-00274,AST-256,2026-05-26T00:00:00,INS-05875,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-05-26T13:29:00
+DEF-00275,AST-257,2023-08-29T00:00:00,INS-05878,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-09-19T00:41:00
+DEF-00276,AST-257,2025-08-18T00:00:00,INS-05902,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-09-03T00:54:00
+DEF-00280,AST-260,2024-05-19T00:00:00,INS-05954,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-06-01T01:12:00
+DEF-00281,AST-260,2024-07-18T00:00:00,INS-05956,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-08-08T00:52:00
+DEF-00282,AST-260,2025-07-13T00:00:00,INS-05968,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-07-19T02:16:00
+DEF-00283,AST-260,2025-10-11T00:00:00,INS-05971,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-11-01T01:11:00
+DEF-00284,AST-260,2026-03-10T00:00:00,INS-05976,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-04-02T01:17:00
+DEF-00287,AST-264,2024-03-18T00:00:00,INS-06025,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-03-28T10:04:00
+DEF-00288,AST-264,2026-07-06T00:00:00,INS-06053,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-07-10T02:33:00
+DEF-00289,AST-265,2024-07-20T00:00:00,INS-06065,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-07-20T03:00:00
+DEF-00293,AST-271,2024-08-28T00:00:00,INS-06199,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-09-07T01:34:00
+DEF-00294,AST-271,2024-12-26T00:00:00,INS-06203,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-01-16T01:29:00
+DEF-00295,AST-271,2025-12-21T00:00:00,INS-06215,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-01-12T01:07:00
+DEF-00296,AST-271,2026-05-20T00:00:00,INS-06220,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-05-26T01:32:00
+DEF-00297,AST-271,2026-07-19T00:00:00,INS-06222,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-07-28T15:16:00
+DEF-00298,AST-274,2024-02-10T00:00:00,INS-06265,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-02-20T01:37:00
+DEF-00299,AST-274,2024-08-08T00:00:00,INS-06271,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-08-30T01:02:00
+DEF-00300,AST-274,2025-07-04T00:00:00,INS-06282,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-02T01:11:00
+DEF-00301,AST-276,2023-11-11T00:00:00,INS-06317,REPETITIVE: Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2023-11-13T02:05:00
+DEF-00304,AST-278,2024-07-21T00:00:00,INS-06375,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-07-28T02:15:00
+DEF-00305,AST-278,2026-01-12T00:00:00,INS-06393,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-01-12T12:31:00
+DEF-00306,AST-279,2026-01-19T00:00:00,INS-06430,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-01-30T00:50:00
+DEF-00307,AST-280,2023-11-21T00:00:00,INS-06440,REPETITIVE: Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2023-11-21T05:47:00
+DEF-00308,AST-280,2024-06-18T00:00:00,INS-06447,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-07-05T00:34:00
+DEF-00309,AST-280,2025-02-13T00:00:00,INS-06455,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-03-04T00:52:00
+DEF-00310,AST-280,2025-09-11T00:00:00,INS-06462,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-09-21T01:24:00
+DEF-00311,AST-281,2025-05-23T00:00:00,INS-06495,REPETITIVE: Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-05-23T10:22:00
+DEF-00314,AST-285,2024-11-14T00:00:00,INS-06568,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-12-01T00:45:00
+DEF-00315,AST-285,2026-03-09T00:00:00,INS-06584,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-04-10T01:15:00
+DEF-00317,AST-288,2025-06-30T00:00:00,INS-06643,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-07-10T13:02:00
+DEF-00318,AST-288,2025-12-27T00:00:00,INS-06649,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-01-17T01:56:00
+DEF-00320,AST-290,2024-06-18T00:00:00,INS-06679,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-06-25T04:26:00
+DEF-00321,AST-290,2024-08-17T00:00:00,INS-06681,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-08-28T00:52:00
+DEF-00322,AST-290,2026-05-09T00:00:00,INS-06702,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-05-29T00:49:00
+DEF-00323,AST-291,2024-11-10T00:00:00,INS-06720,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-12-07T01:05:00
+DEF-00324,AST-291,2025-11-05T00:00:00,INS-06732,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-11-19T01:39:00
+DEF-00326,AST-293,2024-05-21T00:00:00,INS-06762,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-05-21T10:31:00
+DEF-00331,AST-296,2026-03-21T00:00:00,INS-06851,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-03-21T05:01:00
+DEF-00332,AST-297,2025-12-23T00:00:00,INS-06885,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-01-07T01:01:00
+DEF-00334,AST-299,2023-11-24T00:00:00,INS-06908,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-12-07T00:30:00
+DEF-00335,AST-299,2025-03-18T00:00:00,INS-06924,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-03-21T01:23:00
+DEF-00336,AST-300,2025-08-22T00:00:00,INS-06966,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-08-26T01:59:00
+DEF-00337,AST-300,2026-03-20T00:00:00,INS-06973,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-03-25T02:08:00
+DEF-00339,AST-302,2025-06-20T00:00:00,INS-07012,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-06-30T01:40:00
+DEF-00340,AST-302,2025-09-18T00:00:00,INS-07015,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-09-21T01:21:00
+DEF-00343,AST-304,2024-04-20T00:00:00,INS-07052,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-04-30T00:57:00
+DEF-00344,AST-304,2024-09-17T00:00:00,INS-07057,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-10-05T01:46:00
+DEF-00352,AST-312,2024-09-29T00:00:00,INS-07196,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-10-06T01:24:00
+DEF-00353,AST-312,2024-10-29T00:00:00,INS-07197,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-11-19T00:52:00
+DEF-00354,AST-312,2026-01-22T00:00:00,INS-07212,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-01-22T13:52:00
+DEF-00355,AST-315,2025-08-21T00:00:00,INS-07292,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-09-14T01:10:00
+DEF-00356,AST-316,2024-12-26T00:00:00,INS-07321,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-12-26T13:58:00
+DEF-00359,AST-320,2026-06-03T00:00:00,INS-07418,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-06-13T01:01:00
+DEF-00361,AST-322,2023-12-26T00:00:00,INS-07442,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-01-10T00:56:00
+DEF-00362,AST-322,2025-11-15T00:00:00,INS-07465,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-12-03T00:55:00
+DEF-00364,AST-325,2024-06-09T00:00:00,INS-07514,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-06-25T00:54:00
+DEF-00365,AST-325,2025-09-02T00:00:00,INS-07529,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-09-19T01:23:00
+DEF-00366,AST-327,2026-03-30T00:00:00,INS-07591,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-04-13T01:09:00
+DEF-00372,AST-333,2024-02-18T00:00:00,INS-07700,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-02-28T01:33:00
+DEF-00373,AST-333,2025-10-10T00:00:00,INS-07720,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-10-29T00:45:00
+DEF-00374,AST-333,2026-05-08T00:00:00,INS-07727,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-05-21T01:22:00
+DEF-00378,AST-336,2024-12-18T00:00:00,INS-07770,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-01-08T01:10:00
+DEF-00379,AST-338,2024-08-12T00:00:00,INS-07814,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-08-23T01:38:00
+DEF-00381,AST-340,2024-05-29T00:00:00,INS-07860,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-06-18T00:59:00
+DEF-00382,AST-341,2023-10-25T00:00:00,INS-07889,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2023-10-25T05:59:00
+DEF-00383,AST-341,2024-07-21T00:00:00,INS-07898,REPETITIVE: Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-07-31T01:41:00
+DEF-00384,AST-341,2025-08-15T00:00:00,INS-07911,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-09-01T01:11:00
+DEF-00385,AST-342,2025-03-23T00:00:00,INS-07942,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-04-02T01:38:00
+DEF-00386,AST-342,2025-07-21T00:00:00,INS-07946,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-04T00:43:00
+DEF-00387,AST-344,2024-05-20T00:00:00,INS-07980,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-06-04T01:06:00
+DEF-00388,AST-344,2024-10-17T00:00:00,INS-07985,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-11-08T01:10:00
+DEF-00389,AST-344,2025-09-12T00:00:00,INS-07996,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-10-09T00:58:00
+DEF-00390,AST-345,2024-08-14T00:00:00,INS-08019,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-08-17T01:31:00
+DEF-00391,AST-345,2024-12-12T00:00:00,INS-08023,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-12-24T00:00:00
+DEF-00393,AST-348,2025-10-16T00:00:00,INS-08093,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-11-09T01:42:00
+DEF-00394,AST-348,2025-12-15T00:00:00,INS-08095,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-12-20T02:18:00
+DEF-00395,AST-348,2026-01-14T00:00:00,INS-08096,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-01-27T01:02:00
+DEF-00396,AST-348,2026-06-13T00:00:00,INS-08101,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-07-03T00:36:00
+DEF-00403,AST-356,2024-07-09T00:00:00,INS-08229,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-08-01T01:15:00
+DEF-00404,AST-356,2025-06-04T00:00:00,INS-08240,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-06-15T01:11:00
+DEF-00405,AST-356,2025-12-01T00:00:00,INS-08246,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-12-28T01:15:00
+DEF-00406,AST-356,2026-05-30T00:00:00,INS-08252,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-06-24T01:50:00
+DEF-00407,AST-357,2026-02-10T00:00:00,INS-08285,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-02-25T01:10:00
+DEF-00408,AST-358,2024-03-01T00:00:00,INS-08298,REPETITIVE: Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-03-08T00:00:00
+DEF-00409,AST-358,2026-02-19T00:00:00,INS-08322,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-02-19T04:27:00
+DEF-00412,AST-362,2023-10-28T00:00:00,INS-08415,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2023-11-21T01:43:00
+DEF-00413,AST-362,2025-07-19T00:00:00,INS-08436,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-11T01:31:00
+DEF-00414,AST-362,2025-09-17T00:00:00,INS-08438,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-10-09T00:56:00
+DEF-00415,AST-364,2024-03-16T00:00:00,INS-08475,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-04-10T00:51:00
+DEF-00416,AST-364,2025-05-10T00:00:00,INS-08489,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-05-23T00:26:00
+DEF-00417,AST-364,2025-12-06T00:00:00,INS-08496,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-12-18T01:10:00
+DEF-00418,AST-364,2026-06-04T00:00:00,INS-08502,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-06-21T00:47:00
+DEF-00419,AST-365,2024-02-13T00:00:00,INS-08510,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-02-13T10:05:00
+DEF-00420,AST-365,2024-10-10T00:00:00,INS-08518,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-10-31T01:26:00
+DEF-00424,AST-370,2023-08-15T00:00:00,INS-08594,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-09-13T01:06:00
+DEF-00425,AST-370,2024-07-10T00:00:00,INS-08605,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-07-21T01:22:00
+DEF-00426,AST-370,2025-08-04T00:00:00,INS-08618,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-08-04T12:35:00
+DEF-00427,AST-370,2026-01-01T00:00:00,INS-08623,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-01-22T01:25:00
+DEF-00428,AST-370,2026-07-30T00:00:00,INS-08630,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,OPEN,
+DEF-00431,AST-373,2024-03-15T00:00:00,INS-08662,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-04-05T01:03:00
+DEF-00432,AST-373,2024-11-10T00:00:00,INS-08670,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-11-21T01:24:00
+DEF-00433,AST-374,2024-02-12T00:00:00,INS-08697,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-02-12T13:19:00
+DEF-00434,AST-374,2024-07-11T00:00:00,INS-08702,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-07-11T03:56:00
+DEF-00435,AST-374,2025-09-04T00:00:00,INS-08716,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-09-12T01:33:00
+DEF-00438,AST-378,2025-09-30T00:00:00,INS-08802,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-10-18T00:31:00
+DEF-00439,AST-381,2025-08-13T00:00:00,INS-08886,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-28T00:00:00
+DEF-00440,AST-381,2025-12-11T00:00:00,INS-08890,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-12-25T01:25:00
+DEF-00443,AST-387,2025-02-18T00:00:00,INS-08996,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-03-02T00:00:00
+DEF-00444,AST-387,2025-11-15T00:00:00,INS-09005,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-11-15T14:06:00
+DEF-00445,AST-387,2026-01-14T00:00:00,INS-09007,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-01-18T00:00:00
+DEF-00447,AST-390,2025-06-24T00:00:00,INS-09062,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-07-07T01:15:00
+DEF-00449,AST-392,2024-04-02T00:00:00,INS-09097,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-04-20T01:37:00
+DEF-00450,AST-392,2024-05-02T00:00:00,INS-09098,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-05-13T00:45:00
+DEF-00451,AST-392,2024-06-01T00:00:00,INS-09099,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-06-14T00:47:00
+DEF-00452,AST-392,2024-08-30T00:00:00,INS-09102,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-09-15T01:49:00
+DEF-00460,AST-398,2024-09-18T00:00:00,INS-09230,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-10-09T00:52:00
+DEF-00461,AST-398,2026-01-11T00:00:00,INS-09246,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-01-27T00:44:00
+DEF-00463,AST-401,2026-02-11T00:00:00,INS-09331,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-03-06T00:40:00
+DEF-00464,AST-401,2026-03-13T00:00:00,INS-09332,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-03-13T15:35:00
+DEF-00466,AST-404,2026-02-16T00:00:00,INS-09415,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-03-12T01:21:00
+DEF-00470,AST-409,2025-01-21T00:00:00,INS-09492,REPETITIVE: Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-01-26T01:26:00
+DEF-00471,AST-409,2025-03-22T00:00:00,INS-09494,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-04-11T00:51:00
+DEF-00472,AST-410,2025-04-30T00:00:00,INS-09532,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-05-17T01:28:00
+DEF-00476,AST-414,2024-04-28T00:00:00,INS-09599,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-05-23T00:42:00
+DEF-00477,AST-414,2025-01-23T00:00:00,INS-09608,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-02-17T01:22:00
+DEF-00480,AST-418,2025-09-20T00:00:00,INS-09720,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-09-23T01:42:00
+DEF-00481,AST-421,2023-10-07T00:00:00,INS-09763,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2023-10-24T01:46:00
+DEF-00482,AST-421,2024-11-30T00:00:00,INS-09777,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-12-02T01:49:00
+DEF-00483,AST-421,2026-06-23T00:00:00,INS-09796,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-07-06T01:39:00
+DEF-00484,AST-424,2023-11-01T00:00:00,INS-09831,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-11-16T01:02:00
+DEF-00485,AST-424,2024-05-29T00:00:00,INS-09838,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-05-29T12:48:00
+DEF-00486,AST-424,2025-01-24T00:00:00,INS-09846,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-02-10T01:05:00
+DEF-00487,AST-424,2025-09-21T00:00:00,INS-09854,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-10-05T00:44:00
+DEF-00490,AST-429,2025-03-15T00:00:00,INS-09970,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-03-27T01:37:00
+DEF-00491,AST-429,2025-05-14T00:00:00,INS-09972,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-06-08T01:44:00
+DEF-00492,AST-429,2025-10-11T00:00:00,INS-09977,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-10-13T01:15:00
+DEF-00493,AST-429,2026-02-08T00:00:00,INS-09981,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-02-15T02:40:00
+DEF-00495,AST-433,2024-01-07T00:00:00,INS-10055,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-01-17T01:23:00
+DEF-00496,AST-433,2024-04-06T00:00:00,INS-10058,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-04-29T01:42:00
+DEF-00497,AST-433,2025-06-30T00:00:00,INS-10073,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-07-22T00:50:00
+DEF-00498,AST-433,2025-07-30T00:00:00,INS-10074,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-22T00:59:00
+DEF-00499,AST-433,2025-09-28T00:00:00,INS-10076,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-10-17T00:51:00
+DEF-00500,AST-435,2025-10-05T00:00:00,INS-10125,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-10-25T01:17:00
+DEF-00501,AST-437,2024-10-08T00:00:00,INS-10161,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-10-14T08:26:00
+DEF-00502,AST-437,2026-03-02T00:00:00,INS-10178,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-03-05T02:27:00
+DEF-00504,AST-441,2024-07-29T00:00:00,INS-10263,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-08-05T01:06:00
+DEF-00505,AST-441,2026-04-20T00:00:00,INS-10284,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-04-25T02:11:00
+DEF-00508,AST-445,2024-03-03T00:00:00,INS-10345,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-03-20T01:11:00
+DEF-00509,AST-447,2023-12-01T00:00:00,INS-10391,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-12-18T00:59:00
+DEF-00510,AST-447,2024-07-28T00:00:00,INS-10399,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-08-19T00:50:00
+DEF-00511,AST-447,2026-04-19T00:00:00,INS-10420,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-04-19T10:22:00
+DEF-00512,AST-450,2026-03-29T00:00:00,INS-10486,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-04-03T01:26:00
+DEF-00514,AST-452,2024-12-16T00:00:00,INS-10520,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-01-04T01:19:00
+DEF-00516,AST-455,2025-03-09T00:00:00,INS-10607,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-03-26T01:21:00
+DEF-00522,AST-462,2026-03-26T00:00:00,INS-10735,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-04-05T01:17:00
+DEF-00523,AST-464,2024-05-24T00:00:00,INS-10767,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-06-04T01:32:00
+DEF-00524,AST-464,2025-03-20T00:00:00,INS-10777,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-04-13T00:39:00
+DEF-00525,AST-464,2025-08-17T00:00:00,INS-10782,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-09-02T01:53:00
+DEF-00534,AST-478,2024-09-08T00:00:00,INS-11083,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-09-22T01:47:00
+DEF-00544,AST-483,2023-11-21T00:00:00,INS-11164,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-12-13T00:00:00
+DEF-00545,AST-483,2026-06-08T00:00:00,INS-11195,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-06-12T02:05:00
+DEF-00547,AST-485,2024-01-17T00:00:00,INS-11220,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-01-20T02:04:00
+DEF-00548,AST-485,2025-04-11T00:00:00,INS-11235,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-04-20T10:12:00
+DEF-00550,AST-489,2024-06-04T00:00:00,INS-11297,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-06-25T01:38:00
+DEF-00551,AST-489,2025-01-30T00:00:00,INS-11305,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-02-06T02:25:00
+DEF-00552,AST-489,2025-03-01T00:00:00,INS-11306,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-03-13T01:25:00
+DEF-00553,AST-489,2026-07-24T00:00:00,INS-11323,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,OPEN,
+DEF-00564,AST-496,2024-05-19T00:00:00,INS-11417,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-06-07T01:15:00
+DEF-00565,AST-496,2025-05-14T00:00:00,INS-11429,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-06-06T01:15:00
+DEF-00568,AST-500,2025-01-13T00:00:00,INS-11503,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-01-18T01:53:00
+DEF-00569,AST-500,2025-02-12T00:00:00,INS-11504,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-02-18T02:10:00
+DEF-00570,AST-500,2025-04-13T00:00:00,INS-11506,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-04-25T00:00:00
+DEF-00571,AST-500,2025-08-11T00:00:00,INS-11510,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-24T00:43:00
+DEF-00572,AST-500,2026-04-08T00:00:00,INS-11518,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-04-23T01:13:00
+DEF-00573,AST-502,2024-08-14T00:00:00,INS-11547,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-09-08T00:47:00
+DEF-00574,AST-502,2025-07-10T00:00:00,INS-11558,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-02T01:25:00
+DEF-00575,AST-504,2024-08-05T00:00:00,INS-11595,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-08-26T01:44:00
+DEF-00576,AST-504,2024-11-03T00:00:00,INS-11598,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-11-28T01:34:00
+DEF-00578,AST-506,2024-07-28T00:00:00,INS-11650,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-08-02T02:09:00
+DEF-00579,AST-506,2024-08-27T00:00:00,INS-11651,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-09-20T01:14:00
+DEF-00580,AST-506,2025-11-20T00:00:00,INS-11666,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-12-05T01:29:00
+DEF-00581,AST-507,2025-06-25T00:00:00,INS-11698,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-07-15T00:00:00
+DEF-00583,AST-511,2026-03-10T00:00:00,INS-11804,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-03-27T01:13:00
+DEF-00586,AST-514,2025-12-31T00:00:00,INS-11862,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-01-05T01:26:00
+DEF-00588,AST-517,2024-10-08T00:00:00,INS-11908,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-10-08T12:46:00
+DEF-00589,AST-517,2025-04-06T00:00:00,INS-11914,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-05-01T01:10:00
+DEF-00590,AST-517,2026-05-31T00:00:00,INS-11928,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-06-21T01:06:00
+DEF-00591,AST-520,2023-08-09T00:00:00,INS-11967,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2023-08-14T01:58:00
+DEF-00592,AST-520,2024-12-31T00:00:00,INS-11984,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-12-31T10:30:00
+DEF-00593,AST-520,2026-07-24T00:00:00,INS-12003,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-07-24T05:59:00
+DEF-00596,AST-524,2026-06-23T00:00:00,INS-12095,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-06-26T01:22:00
+DEF-00601,AST-529,2025-03-04T00:00:00,INS-12165,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-03-20T00:32:00
+DEF-00606,AST-533,2023-12-23T00:00:00,INS-12236,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-01-02T01:38:00
+DEF-00607,AST-533,2026-03-12T00:00:00,INS-12263,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-03-24T01:30:00
+DEF-00608,AST-534,2025-01-19T00:00:00,INS-12285,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-01-30T01:11:00
+DEF-00613,AST-538,2025-11-01T00:00:00,INS-12368,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-11-14T01:01:00
+DEF-00621,AST-545,2024-04-10T00:00:00,INS-12489,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-05-01T01:28:00
+DEF-00622,AST-545,2025-03-06T00:00:00,INS-12500,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-03-25T01:12:00
+DEF-00623,AST-545,2026-04-30T00:00:00,INS-12514,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-05-03T02:02:00
+DEF-00624,AST-545,2026-06-29T00:00:00,INS-12516,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-07-15T01:43:00
+DEF-00636,AST-558,2023-08-08T00:00:00,INS-12748,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2023-08-19T01:38:00
+DEF-00637,AST-558,2023-09-07T00:00:00,INS-12749,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2023-09-11T08:21:00
+DEF-00638,AST-558,2024-02-04T00:00:00,INS-12754,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-02-18T01:29:00
+DEF-00639,AST-558,2026-06-23T00:00:00,INS-12783,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-07-23T00:59:00
+DEF-00640,AST-559,2024-03-09T00:00:00,INS-12792,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-03-09T10:34:00
+DEF-00641,AST-559,2026-06-27T00:00:00,INS-12820,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-07-17T00:58:00
+DEF-00642,AST-560,2026-07-30T00:00:00,INS-12858,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,OPEN,
+DEF-00643,AST-561,2024-01-19T00:00:00,INS-12864,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-02-04T01:06:00
+DEF-00644,AST-561,2024-03-19T00:00:00,INS-12866,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-03-26T01:56:00
+DEF-00648,AST-569,2024-04-03T00:00:00,INS-13015,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-04-23T00:00:00
+DEF-00649,AST-569,2025-02-27T00:00:00,INS-13026,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-03-11T01:13:00
+DEF-00650,AST-569,2025-12-24T00:00:00,INS-13036,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-01-11T01:23:00
+DEF-00651,AST-569,2026-02-22T00:00:00,INS-13038,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-03-11T01:02:00
+DEF-00654,AST-572,2023-09-03T00:00:00,INS-13075,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2023-09-19T00:00:00
+DEF-00655,AST-572,2025-02-24T00:00:00,INS-13093,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-02-24T10:37:00
+DEF-00656,AST-575,2024-12-16T00:00:00,INS-13176,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-01-03T00:39:00
+DEF-00657,AST-575,2025-01-15T00:00:00,INS-13177,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-02-09T00:54:00
+DEF-00659,AST-578,2025-12-19T00:00:00,INS-13249,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-01-15T01:03:00
+DEF-00660,AST-579,2023-08-30T00:00:00,INS-13257,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2023-09-21T01:12:00
+DEF-00661,AST-579,2025-08-19T00:00:00,INS-13281,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-09-06T01:40:00
+DEF-00663,AST-581,2024-06-21T00:00:00,INS-13315,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-06-30T14:24:00
+DEF-00664,AST-581,2025-03-18T00:00:00,INS-13324,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-04-08T01:45:00
+DEF-00666,AST-585,2023-12-05T00:00:00,INS-13381,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2023-12-05T04:38:00
+DEF-00669,AST-589,2024-01-07T00:00:00,INS-13467,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-01-14T01:43:00
+DEF-00670,AST-589,2026-02-25T00:00:00,INS-13493,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-03-16T00:35:00
+DEF-00671,AST-591,2025-08-07T00:00:00,INS-13535,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-26T01:31:00
+DEF-00672,AST-591,2026-04-04T00:00:00,INS-13543,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-04-18T00:43:00
+DEF-00675,AST-596,2025-05-04T00:00:00,INS-13629,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-05-19T01:13:00
+DEF-00676,AST-598,2024-07-23T00:00:00,INS-13675,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-08-17T01:00:00
+DEF-00677,AST-598,2025-08-17T00:00:00,INS-13688,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-08-20T04:14:00
+DEF-00678,AST-598,2025-09-16T00:00:00,INS-13689,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-10-12T01:01:00
+DEF-00679,AST-598,2025-11-15T00:00:00,INS-13691,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-12-12T01:03:00
+DEF-00684,AST-606,2024-05-12T00:00:00,INS-13841,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-06-09T01:03:00
+DEF-00685,AST-608,2025-07-16T00:00:00,INS-13904,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-08-07T01:17:00
+DEF-00686,AST-608,2026-01-12T00:00:00,INS-13910,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-02-03T01:06:00
+DEF-00687,AST-608,2026-02-11T00:00:00,INS-13911,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-03-02T01:14:00
+DEF-00688,AST-609,2023-12-27T00:00:00,INS-13921,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2023-12-27T06:57:00
+DEF-00689,AST-609,2026-02-14T00:00:00,INS-13947,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-02-25T01:58:00
+DEF-00690,AST-610,2024-08-03T00:00:00,INS-13965,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-08-27T00:54:00
+DEF-00691,AST-610,2026-01-25T00:00:00,INS-13983,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-02-10T00:47:00
+DEF-00692,AST-610,2026-02-24T00:00:00,INS-13984,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-03-16T01:21:00
+DEF-00699,AST-619,2023-11-29T00:00:00,INS-14108,REPETITIVE: Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2023-12-04T01:58:00
+DEF-00700,AST-619,2023-12-29T00:00:00,INS-14109,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-01-10T00:00:00
+DEF-00701,AST-619,2025-05-22T00:00:00,INS-14126,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-06-07T01:47:00
+DEF-00702,AST-619,2025-08-20T00:00:00,INS-14129,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-08-27T01:39:00
+DEF-00713,AST-633,2023-08-05T00:00:00,INS-14346,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-08-22T01:32:00
+DEF-00714,AST-633,2024-04-01T00:00:00,INS-14354,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-04-13T01:34:00
+DEF-00715,AST-633,2024-07-30T00:00:00,INS-14358,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-08-18T01:24:00
+DEF-00717,AST-637,2023-10-05T00:00:00,INS-14458,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-10-18T01:08:00
+DEF-00718,AST-637,2026-05-22T00:00:00,INS-14490,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-06-05T00:00:00
+DEF-00720,AST-641,2024-07-08T00:00:00,INS-14546,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-07-27T01:23:00
+DEF-00721,AST-642,2024-03-03T00:00:00,INS-14579,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-03-14T00:52:00
+DEF-00722,AST-642,2024-12-28T00:00:00,INS-14589,REPETITIVE: Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-01-27T01:01:00
+DEF-00723,AST-642,2025-08-25T00:00:00,INS-14597,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-09-16T01:11:00
+DEF-00728,AST-647,2024-04-06T00:00:00,INS-14702,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2024-04-06T05:04:00
+DEF-00729,AST-647,2026-05-26T00:00:00,INS-14728,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-06-01T02:30:00
+DEF-00730,AST-647,2026-06-25T00:00:00,INS-14729,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2026-07-01T02:14:00
+DEF-00734,AST-657,2024-04-19T00:00:00,INS-14865,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-05-14T01:30:00
+DEF-00740,AST-663,2024-04-27T00:00:00,INS-14979,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-05-13T00:50:00
+DEF-00741,AST-663,2026-06-16T00:00:00,INS-15005,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-07-12T00:47:00
+DEF-00746,AST-668,2025-03-17T00:00:00,INS-15094,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-04-03T00:58:00
+DEF-00747,AST-668,2025-12-12T00:00:00,INS-15103,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-01-04T01:06:00
+DEF-00748,AST-669,2025-10-24T00:00:00,INS-15138,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-10-24T07:00:00
+DEF-00749,AST-669,2026-05-22T00:00:00,INS-15145,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-05-22T08:17:00
+DEF-00751,AST-672,2025-11-06T00:00:00,INS-15223,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-12-03T01:09:00
+DEF-00752,AST-673,2024-06-19T00:00:00,INS-15242,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-07-08T01:38:00
+DEF-00753,AST-673,2025-02-14T00:00:00,INS-15250,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-03-11T00:51:00
+DEF-00754,AST-673,2026-05-10T00:00:00,INS-15265,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-05-26T01:31:00
+DEF-00755,AST-677,2024-04-21T00:00:00,INS-15318,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-05-14T00:54:00
+DEF-00756,AST-677,2025-06-15T00:00:00,INS-15332,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-06-30T00:57:00
+DEF-00759,AST-683,2024-07-08T00:00:00,INS-15426,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-07-20T01:14:00
+DEF-00762,AST-692,2023-08-13T00:00:00,INS-15590,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2023-08-13T08:08:00
+DEF-00763,AST-692,2024-02-09T00:00:00,INS-15596,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-03-01T01:30:00
+DEF-00764,AST-692,2024-03-10T00:00:00,INS-15597,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-03-23T00:33:00
+DEF-00765,AST-692,2025-03-05T00:00:00,INS-15609,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-03-27T01:06:00
+DEF-00766,AST-693,2026-05-28T00:00:00,INS-15661,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-06-08T01:09:00
+DEF-00773,AST-699,2025-05-30T00:00:00,INS-15766,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-06-23T01:30:00
+DEF-00774,AST-699,2025-08-28T00:00:00,INS-15769,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-09-10T01:11:00
+DEF-00778,AST-704,2024-11-03T00:00:00,INS-15858,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-11-28T00:57:00
+DEF-00779,AST-704,2024-12-03T00:00:00,INS-15859,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-12-25T00:47:00
+DEF-00780,AST-704,2025-06-01T00:00:00,INS-15865,REPETITIVE: Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-06-03T02:01:00
+DEF-00781,AST-704,2025-07-01T00:00:00,INS-15866,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-07-31T01:07:00
+DEF-00783,AST-706,2023-09-25T00:00:00,INS-15899,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2023-09-29T02:33:00
+DEF-00784,AST-706,2025-12-13T00:00:00,INS-15926,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-01-06T01:04:00
+DEF-00789,AST-713,2024-07-20T00:00:00,INS-16023,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-08-14T01:10:00
+DEF-00790,AST-713,2024-10-18T00:00:00,INS-16026,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-11-17T01:10:00
+DEF-00791,AST-713,2025-08-14T00:00:00,INS-16036,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2025-09-04T01:40:00
+DEF-00792,AST-713,2025-11-12T00:00:00,INS-16039,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-11-20T01:49:00
+DEF-00793,AST-713,2025-12-12T00:00:00,INS-16040,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-01-06T00:36:00
+DEF-00794,AST-715,2023-08-11T00:00:00,INS-16066,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-08-31T00:56:00
+DEF-00795,AST-715,2025-07-01T00:00:00,INS-16089,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-07-12T01:04:00
+DEF-00796,AST-715,2026-04-27T00:00:00,INS-16099,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-05-10T00:41:00
+DEF-00819,AST-738,2025-05-01T00:00:00,INS-16462,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2025-05-08T01:38:00
+DEF-00820,AST-738,2026-06-25T00:00:00,INS-16476,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2026-06-25T12:59:00
+DEF-00821,AST-739,2023-12-21T00:00:00,INS-16482,Voltage Fluctuation,MAJOR,Unstable aspect indication,Block Required,CLOSED,2023-12-24T02:17:00
+DEF-00822,AST-739,2024-04-19T00:00:00,INS-16486,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-05-13T00:50:00
+DEF-00823,AST-739,2024-05-19T00:00:00,INS-16487,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2024-06-03T01:18:00
+DEF-00824,AST-739,2026-07-08T00:00:00,INS-16513,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2026-07-30T00:40:00
+DEF-00825,AST-742,2023-10-26T00:00:00,INS-16541,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-11-25T01:05:00
+DEF-00826,AST-742,2024-10-20T00:00:00,INS-16553,Voltage Fluctuation,MINOR,No restriction,,CLOSED,2024-11-11T01:03:00
+DEF-00827,AST-742,2025-04-18T00:00:00,INS-16559,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2025-05-09T00:56:00
+DEF-00828,AST-742,2025-05-18T00:00:00,INS-16560,Voltage Fluctuation,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-05-18T14:38:00
+DEF-00829,AST-742,2026-04-13T00:00:00,INS-16571,REPETITIVE: Voltage Fluctuation,MINOR,No restriction,,CLOSED,2026-05-09T00:55:00
+DEF-00830,AST-743,2023-08-23T00:00:00,INS-16575,Poor Signal Aspect Visibility,MINOR,No restriction,,CLOSED,2023-09-11T00:47:00
+DEF-00833,AST-746,2024-08-21T00:00:00,INS-16653,Poor Signal Aspect Visibility,MAJOR,Unstable aspect indication,Block Required,CLOSED,2024-08-27T02:14:00
+DEF-00834,AST-746,2025-08-16T00:00:00,INS-16665,Poor Signal Aspect Visibility,CRITICAL,Signal aspect failures (Red default),Block Required,CLOSED,2025-08-16T08:05:00
+DEF-00839,AST-040,2024-03-15T13:00:00,,Point Machine Jammed,CRITICAL,All signals red default,Block Required,CLOSED,2024-03-15T18:11:00
+DEF-00840,AST-043,2026-04-08T16:00:00,,Point Machine Jammed,CRITICAL,All signals red default,Block Required,CLOSED,2026-04-08T20:31:00
+DEF-00844,AST-076,2025-05-27T06:00:00,,Point Machine Jammed,CRITICAL,All signals red default,Block Required,CLOSED,2025-05-27T12:35:00
+DEF-00847,AST-147,2025-01-23T04:00:00,,Lightning Surge Interlocking failure,MAJOR,All signals red default,Block Required,CLOSED,2025-01-23T08:15:00
+DEF-00853,AST-256,2026-02-09T18:00:00,,Lightning Surge Interlocking failure,MAJOR,All signals red default,Block Required,CLOSED,2026-02-09T22:21:00
+DEF-00856,AST-274,2025-12-21T06:00:00,,Track Circuit Cable Cut,MAJOR,All signals red default,Block Required,CLOSED,2025-12-21T09:25:00
+DEF-00858,AST-316,2024-05-25T15:00:00,,Track Circuit Cable Cut,CRITICAL,All signals red default,Block Required,CLOSED,2024-05-25T18:29:00
+DEF-00860,AST-341,2025-02-14T07:00:00,,Lightning Surge Interlocking failure,CRITICAL,All signals red default,Block Required,CLOSED,2025-02-14T10:17:00
+DEF-00861,AST-358,2023-08-16T13:00:00,,Track Circuit Cable Cut,CRITICAL,All signals red default,Block Required,CLOSED,2023-08-16T16:37:00
+DEF-00868,AST-409,2023-10-23T18:00:00,,Lightning Surge Interlocking failure,CRITICAL,All signals red default,Block Required,CLOSED,2023-10-23T23:13:00
+DEF-00873,AST-483,2026-03-28T01:00:00,,Point Machine Jammed,MAJOR,All signals red default,Block Required,CLOSED,2026-03-28T06:14:00
+DEF-00875,AST-485,2023-12-09T06:00:00,,Point Machine Jammed,MAJOR,All signals red default,Block Required,CLOSED,2023-12-09T09:35:00
+DEF-00880,AST-589,2025-09-06T06:00:00,,Track Circuit Cable Cut,MAJOR,All signals red default,Block Required,CLOSED,2025-09-06T12:17:00
+DEF-00886,AST-722,2026-07-22T23:00:00,,Point Machine Jammed,CRITICAL,All signals red default,Block Required,CLOSED,2026-07-23T05:13:00
+DEF-00887,AST-738,2024-08-08T22:00:00,,Lightning Surge Interlocking failure,MAJOR,All signals red default,Block Required,CLOSED,2024-08-09T04:28:00
+DEF-00005,AST-006,2025-01-29T00:00:00,INS-00122,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-01-29T04:52:00
+DEF-00035,AST-034,2024-03-14T00:00:00,INS-00782,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-03-20T02:06:00
+DEF-00036,AST-035,2025-11-16T00:00:00,INS-00810,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-11-16T14:09:00
+DEF-00046,AST-045,2026-04-22T00:00:00,INS-01043,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2026-04-22T10:18:00
+DEF-00051,AST-050,2025-08-02T00:00:00,INS-01130,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-08-12T11:07:00
+DEF-00053,AST-052,2024-07-04T00:00:00,INS-01178,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-07-04T07:29:00
+DEF-00054,AST-053,2025-11-19T00:00:00,INS-01205,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-11-19T04:40:00
+DEF-00067,AST-064,2025-05-06T00:00:00,INS-01478,REPETITIVE: Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-05-10T00:00:00
+DEF-00072,AST-073,2024-12-14T00:00:00,INS-01628,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-12-21T02:45:00
+DEF-00110,AST-113,2024-04-25T00:00:00,INS-02516,REPETITIVE: OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-04-25T11:25:00
+DEF-00111,AST-113,2026-06-14T00:00:00,INS-02529,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-06-21T02:16:00
+DEF-00121,AST-121,2024-07-11T00:00:00,INS-02724,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-07-16T03:09:00
+DEF-00127,AST-127,2024-08-23T00:00:00,INS-02835,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-08-23T10:35:00
+DEF-00133,AST-135,2023-08-05T00:00:00,INS-03012,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2023-08-05T07:39:00
+DEF-00134,AST-135,2025-11-22T00:00:00,INS-03026,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-11-28T02:10:00
+DEF-00150,AST-156,2025-08-11T00:00:00,INS-03457,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-08-11T07:45:00
+DEF-00153,AST-158,2025-03-14T00:00:00,INS-03508,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-03-16T02:31:00
+DEF-00161,AST-169,2025-07-07T00:00:00,INS-03759,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-07-07T11:31:00
+DEF-00164,AST-171,2023-10-19T00:00:00,INS-03803,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2023-10-24T02:06:00
+DEF-00175,AST-183,2025-08-20T00:00:00,INS-04117,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-08-20T14:26:00
+DEF-00177,AST-185,2025-05-14T00:00:00,INS-04169,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-05-21T02:29:00
+DEF-00183,AST-193,2023-09-23T00:00:00,INS-04318,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2023-09-29T06:03:00
+DEF-00184,AST-193,2025-09-12T00:00:00,INS-04330,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-09-12T15:44:00
+DEF-00198,AST-202,2024-07-08T00:00:00,INS-04541,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-07-12T02:04:00
+DEF-00203,AST-207,2025-06-15T00:00:00,INS-04644,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-06-15T06:09:00
+DEF-00204,AST-207,2025-12-12T00:00:00,INS-04647,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-12-19T01:42:00
+DEF-00206,AST-212,2026-01-09T00:00:00,INS-04763,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-01-16T02:24:00
+DEF-00207,AST-212,2026-05-09T00:00:00,INS-04765,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-05-13T03:26:00
+DEF-00230,AST-227,2024-04-18T00:00:00,INS-05128,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-04-21T02:30:00
+DEF-00231,AST-227,2026-02-07T00:00:00,INS-05139,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-02-12T02:28:00
+DEF-00235,AST-229,2024-04-19T00:00:00,INS-05183,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-04-19T08:32:00
+DEF-00236,AST-229,2025-02-13T00:00:00,INS-05188,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-02-19T02:11:00
+DEF-00242,AST-232,2025-02-01T00:00:00,INS-05255,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-02-07T01:55:00
+DEF-00243,AST-232,2025-09-29T00:00:00,INS-05259,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-09-29T09:55:00
+DEF-00260,AST-247,2024-11-02T00:00:00,INS-05600,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-11-02T08:38:00
+DEF-00261,AST-247,2025-08-29T00:00:00,INS-05605,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-08-29T05:41:00
+DEF-00265,AST-249,2023-08-27T00:00:00,INS-05648,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2023-08-27T15:45:00
+DEF-00277,AST-259,2024-08-08T00:00:00,INS-05932,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-08-08T10:41:00
+DEF-00278,AST-259,2025-06-04T00:00:00,INS-05937,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-06-18T02:10:00
+DEF-00279,AST-259,2025-12-01T00:00:00,INS-05940,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-12-06T00:00:00
+DEF-00291,AST-269,2026-05-13T00:00:00,INS-06172,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-05-15T02:17:00
+DEF-00327,AST-294,2024-07-20T00:00:00,INS-06794,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-07-20T09:48:00
+DEF-00328,AST-294,2025-11-12T00:00:00,INS-06802,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-11-12T09:57:00
+DEF-00341,AST-303,2024-05-05T00:00:00,INS-07030,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-05-05T13:08:00
+DEF-00342,AST-303,2026-02-24T00:00:00,INS-07041,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-02-28T01:58:00
+DEF-00345,AST-305,2023-09-20T00:00:00,INS-07080,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2023-09-23T02:31:00
+DEF-00346,AST-305,2025-11-08T00:00:00,INS-07093,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-11-18T02:19:00
+DEF-00351,AST-311,2024-07-03T00:00:00,INS-07169,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-07-10T02:13:00
+DEF-00358,AST-319,2023-12-13T00:00:00,INS-07367,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2023-12-19T02:10:00
+DEF-00360,AST-321,2025-03-17T00:00:00,INS-07429,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-03-22T00:00:00
+DEF-00363,AST-324,2024-04-20T00:00:00,INS-07490,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-04-27T02:56:00
+DEF-00367,AST-328,2024-05-23T00:00:00,INS-07600,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-05-23T12:32:00
+DEF-00368,AST-328,2025-05-18T00:00:00,INS-07606,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-05-31T02:12:00
+DEF-00371,AST-332,2024-11-05T00:00:00,INS-07683,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-11-07T03:07:00
+DEF-00400,AST-352,2026-06-13T00:00:00,INS-08180,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2026-06-22T11:12:00
+DEF-00421,AST-366,2023-11-07T00:00:00,INS-08541,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2023-11-13T07:06:00
+DEF-00422,AST-366,2025-08-28T00:00:00,INS-08552,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-08-28T12:00:00
+DEF-00437,AST-377,2025-07-11T00:00:00,INS-08769,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-07-22T02:12:00
+DEF-00441,AST-386,2024-11-30T00:00:00,INS-08967,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-12-04T03:14:00
+DEF-00442,AST-386,2026-05-24T00:00:00,INS-08976,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-05-29T02:12:00
+DEF-00453,AST-395,2025-04-23T00:00:00,INS-09185,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-04-27T02:29:00
+DEF-00454,AST-395,2026-06-17T00:00:00,INS-09192,REPETITIVE: OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-06-20T02:17:00
+DEF-00467,AST-407,2025-09-04T00:00:00,INS-09457,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-09-16T02:21:00
+DEF-00475,AST-412,2024-10-16T00:00:00,INS-09567,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-10-20T02:33:00
+DEF-00478,AST-416,2024-09-28T00:00:00,INS-09646,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-10-08T02:08:00
+DEF-00479,AST-416,2026-01-21T00:00:00,INS-09654,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2026-01-21T09:40:00
+DEF-00506,AST-442,2023-08-04T00:00:00,INS-10288,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2023-08-04T14:48:00
+DEF-00507,AST-443,2024-03-29T00:00:00,INS-10311,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-04-05T03:03:00
+DEF-00518,AST-458,2024-02-26T00:00:00,INS-10652,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-02-29T03:08:00
+DEF-00526,AST-468,2025-03-15T00:00:00,INS-10894,REPETITIVE: OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-03-18T09:27:00
+DEF-00527,AST-469,2026-05-27T00:00:00,INS-10920,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-05-30T03:12:00
+DEF-00528,AST-473,2025-05-31T00:00:00,INS-10976,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-06-02T02:21:00
+DEF-00529,AST-473,2026-05-26T00:00:00,INS-10982,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2026-06-05T11:03:00
+DEF-00532,AST-476,2026-03-22T00:00:00,INS-11049,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-03-28T02:42:00
+DEF-00533,AST-477,2025-03-05T00:00:00,INS-11061,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-03-09T02:52:00
+DEF-00546,AST-484,2023-09-09T00:00:00,INS-11197,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2023-09-09T10:32:00
+DEF-00557,AST-491,2023-11-05T00:00:00,INS-11337,OHE Mast Tilt Out of Alignment,MINOR,No restriction,,CLOSED,2023-11-23T00:49:00
+DEF-00558,AST-491,2024-03-04T00:00:00,INS-11339,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-03-08T01:58:00
+DEF-00559,AST-493,2024-12-15T00:00:00,INS-11374,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-12-23T02:22:00
+DEF-00560,AST-493,2026-06-08T00:00:00,INS-11383,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-06-12T01:48:00
+DEF-00566,AST-499,2024-10-25T00:00:00,INS-11475,REPETITIVE: OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-10-30T00:00:00
+DEF-00567,AST-499,2026-06-17T00:00:00,INS-11485,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-06-25T02:20:00
+DEF-00577,AST-505,2026-03-02T00:00:00,INS-11635,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-03-06T02:17:00
+DEF-00594,AST-521,2025-06-01T00:00:00,INS-12015,REPETITIVE: Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-06-08T02:00:00
+DEF-00595,AST-523,2025-03-06T00:00:00,INS-12051,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-03-06T16:41:00
+DEF-00602,AST-530,2025-11-05T00:00:00,INS-12196,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-11-05T15:44:00
+DEF-00603,AST-530,2026-01-04T00:00:00,INS-12197,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2026-01-11T14:25:00
+DEF-00604,AST-532,2025-02-01T00:00:00,INS-12222,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-02-05T03:00:00
+DEF-00605,AST-532,2025-11-28T00:00:00,INS-12227,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-11-28T08:27:00
+DEF-00615,AST-540,2025-03-06T00:00:00,INS-12399,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-03-06T07:22:00
+DEF-00626,AST-547,2025-03-12T00:00:00,INS-12539,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-03-15T02:14:00
+DEF-00628,AST-550,2023-11-01T00:00:00,INS-12579,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2023-11-05T01:45:00
+DEF-00629,AST-550,2024-08-27T00:00:00,INS-12584,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-09-02T06:26:00
+DEF-00630,AST-550,2024-10-26T00:00:00,INS-12585,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-10-26T10:00:00
+DEF-00631,AST-550,2026-04-19T00:00:00,INS-12594,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-04-23T01:57:00
+DEF-00632,AST-551,2025-10-18T00:00:00,INS-12609,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-10-24T03:17:00
+DEF-00633,AST-551,2026-02-15T00:00:00,INS-12611,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-02-26T02:30:00
+DEF-00634,AST-554,2024-07-01T00:00:00,INS-12649,REPETITIVE: Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-07-01T08:49:00
+DEF-00645,AST-562,2024-07-17T00:00:00,INS-12900,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-07-27T02:08:00
+DEF-00646,AST-566,2025-12-15T00:00:00,INS-12971,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-12-19T02:31:00
+DEF-00652,AST-570,2025-10-14T00:00:00,INS-13057,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-10-14T06:15:00
+DEF-00667,AST-588,2025-03-13T00:00:00,INS-13453,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-03-13T08:24:00
+DEF-00668,AST-588,2025-11-08T00:00:00,INS-13457,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-11-08T06:24:00
+DEF-00674,AST-594,2024-01-21T00:00:00,INS-13580,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-01-25T02:29:00
+DEF-00681,AST-601,2025-04-23T00:00:00,INS-13734,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-05-07T02:25:00
+DEF-00682,AST-602,2024-02-21T00:00:00,INS-13745,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-02-27T02:52:00
+DEF-00683,AST-602,2025-06-15T00:00:00,INS-13753,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-06-19T02:38:00
+DEF-00693,AST-612,2024-01-21T00:00:00,INS-14004,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-01-21T09:20:00
+DEF-00694,AST-613,2025-04-04T00:00:00,INS-14030,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-04-04T09:24:00
+DEF-00695,AST-613,2026-07-28T00:00:00,INS-14038,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,OPEN,
+DEF-00705,AST-622,2025-01-16T00:00:00,INS-14174,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-01-18T02:15:00
+DEF-00706,AST-622,2025-11-12T00:00:00,INS-14179,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-11-14T02:59:00
+DEF-00709,AST-630,2024-10-20T00:00:00,INS-14305,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-10-20T16:33:00
+DEF-00711,AST-632,2024-03-28T00:00:00,INS-14331,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-03-31T16:22:00
+DEF-00712,AST-632,2026-07-16T00:00:00,INS-14345,REPETITIVE: OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2026-07-16T14:56:00
+DEF-00716,AST-634,2025-02-28T00:00:00,INS-14392,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-02-28T16:00:00
+DEF-00724,AST-645,2023-10-19T00:00:00,INS-14665,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2023-10-19T09:09:00
+DEF-00725,AST-645,2024-02-16T00:00:00,INS-14667,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-02-19T02:47:00
+DEF-00726,AST-645,2024-04-16T00:00:00,INS-14668,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-04-16T12:26:00
+DEF-00727,AST-645,2025-02-10T00:00:00,INS-14673,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-02-10T10:43:00
+DEF-00732,AST-651,2025-10-16T00:00:00,INS-14792,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-10-24T02:13:00
+DEF-00736,AST-660,2026-03-08T00:00:00,INS-14938,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-03-11T02:13:00
+DEF-00737,AST-661,2026-03-17T00:00:00,INS-14956,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-03-31T02:13:00
+DEF-00742,AST-664,2026-04-26T00:00:00,INS-15023,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2026-04-26T16:10:00
+DEF-00744,AST-667,2024-06-11T00:00:00,INS-15061,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-06-15T01:56:00
+DEF-00745,AST-667,2024-08-10T00:00:00,INS-15062,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-08-14T02:02:00
+DEF-00760,AST-684,2026-04-30T00:00:00,INS-15468,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2026-05-04T16:12:00
+DEF-00761,AST-688,2024-03-24T00:00:00,INS-15539,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-03-31T02:50:00
+DEF-00768,AST-695,2024-09-26T00:00:00,INS-15683,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-10-08T02:03:00
+DEF-00769,AST-695,2024-11-25T00:00:00,INS-15684,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-11-27T02:45:00
+DEF-00770,AST-695,2025-03-25T00:00:00,INS-15686,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2025-03-25T05:28:00
+DEF-00777,AST-703,2026-01-24T00:00:00,INS-15839,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-01-27T02:35:00
+DEF-00782,AST-705,2026-02-28T00:00:00,INS-15895,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2026-02-28T13:54:00
+DEF-00798,AST-717,2024-10-01T00:00:00,INS-16122,Contact Wire Thickness Under Min Limit,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2024-10-01T14:04:00
+DEF-00799,AST-717,2025-01-29T00:00:00,INS-16124,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-02-01T02:16:00
+DEF-00806,AST-721,2024-05-30T00:00:00,INS-16177,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2024-06-04T02:49:00
+DEF-00807,AST-721,2026-01-20T00:00:00,INS-16187,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-01-24T02:03:00
+DEF-00811,AST-729,2026-05-09T00:00:00,INS-16323,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-05-14T03:00:00
+DEF-00812,AST-730,2023-09-13T00:00:00,INS-16325,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2023-09-19T02:04:00
+DEF-00813,AST-730,2025-11-01T00:00:00,INS-16338,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-11-06T00:00:00
+DEF-00814,AST-730,2026-06-29T00:00:00,INS-16342,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2026-07-06T00:00:00
+DEF-00818,AST-736,2025-02-05T00:00:00,INS-16419,OHE Mast Tilt Out of Alignment,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-02-09T03:05:00
+DEF-00831,AST-745,2025-01-14T00:00:00,INS-16631,Contact Wire Thickness Under Min Limit,MAJOR,Unstable OHE contact pressure,Block Required,CLOSED,2025-01-29T02:09:00
+DEF-00832,AST-745,2026-03-10T00:00:00,INS-16638,OHE Mast Tilt Out of Alignment,CRITICAL,Pantograph entanglement risk,Block Required,CLOSED,2026-03-14T05:06:00
+DEF-00838,AST-033,2024-01-16T04:00:00,,Insulator Bursting,CRITICAL,Power breakdown on line,Block Required,CLOSED,2024-01-16T10:01:00
+DEF-00842,AST-063,2025-11-15T02:00:00,,Insulator Bursting,MAJOR,Power breakdown on line,Block Required,CLOSED,2025-11-15T05:48:00
+DEF-00843,AST-064,2024-06-06T11:00:00,,OHE Contact Wire Snapping,MAJOR,Power breakdown on line,Block Required,CLOSED,2024-06-06T17:35:00
+DEF-00850,AST-168,2024-12-13T18:00:00,,Substation Breaker Tripped,CRITICAL,Power breakdown on line,Block Required,CLOSED,2024-12-13T23:39:00
+DEF-00851,AST-197,2023-10-01T19:00:00,,Substation Breaker Tripped,CRITICAL,Power breakdown on line,Block Required,CLOSED,2023-10-01T22:54:00
+DEF-00854,AST-259,2025-12-24T23:00:00,,Insulator Bursting,MAJOR,Power breakdown on line,Block Required,CLOSED,2025-12-25T05:52:00
+DEF-00857,AST-294,2025-07-23T05:00:00,,OHE Contact Wire Snapping,CRITICAL,Power breakdown on line,Block Required,CLOSED,2025-07-23T11:52:00
+DEF-00859,AST-321,2024-03-22T17:00:00,,Insulator Bursting,MAJOR,Power breakdown on line,Block Required,CLOSED,2024-03-22T21:09:00
+DEF-00865,AST-375,2025-11-03T03:00:00,,Substation Breaker Tripped,CRITICAL,Power breakdown on line,Block Required,CLOSED,2025-11-03T06:42:00
+DEF-00871,AST-449,2026-01-28T19:00:00,,Insulator Bursting,MAJOR,Power breakdown on line,Block Required,CLOSED,2026-01-29T01:54:00
+DEF-00872,AST-469,2026-06-01T13:00:00,,Substation Breaker Tripped,MAJOR,Power breakdown on line,Block Required,CLOSED,2026-06-01T20:16:00
+DEF-00874,AST-484,2026-04-19T15:00:00,,Substation Breaker Tripped,CRITICAL,Power breakdown on line,Block Required,CLOSED,2026-04-19T21:36:00
+DEF-00876,AST-505,2023-08-31T04:00:00,,OHE Contact Wire Snapping,CRITICAL,Power breakdown on line,Block Required,CLOSED,2023-08-31T08:58:00
+DEF-00877,AST-568,2025-01-22T22:00:00,,Insulator Bursting,CRITICAL,Power breakdown on line,Block Required,CLOSED,2025-01-23T01:59:00
+DEF-00881,AST-638,2024-10-04T08:00:00,,Insulator Bursting,CRITICAL,Power breakdown on line,Block Required,CLOSED,2024-10-04T14:16:00
+DEF-00883,AST-664,2025-12-21T20:00:00,,Substation Breaker Tripped,MAJOR,Power breakdown on line,Block Required,CLOSED,2025-12-21T23:44:00
+DEF-00888,AST-745,2025-01-27T03:00:00,,Insulator Bursting,CRITICAL,Power breakdown on line,Block Required,CLOSED,2025-01-27T08:03:00

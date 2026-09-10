@@ -1,0 +1,7 @@
+station_id,corridor_id,name,code,km_post
+STA-001,COR-001,Old Delhi Junction,DLI,0.0
+STA-002,COR-001,Delhi Shahdara,DSA,8.0
+STA-003,COR-001,Chander Nagar Halts,CNJ,12.0
+STA-004,COR-001,Anand Vihar Terminal,ANVR,14.0
+STA-005,COR-001,Sahibabad Junction,SBB,19.5
+STA-006,COR-001,Ghaziabad Junction,GZB,28.5

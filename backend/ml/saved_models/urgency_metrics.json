@@ -1,0 +1,35 @@
+{
+  "model_name": "MaintenanceUrgencyModel",
+  "algorithm": "GradientBoostingClassifier (sklearn)",
+  "trained_at": "2026-09-09",
+  "train_rows": 600,
+  "test_rows": 150,
+  "data_source": "Provided dataset.zip / canonical_reference",
+  "dataset_scope": "Delhi\u2013Ghaziabad corridor MVP; synthetic and illustrative per supplied dataset README",
+  "target_definition": "Urgent if the asset had a major/critical defect in the prior 180 days, an open defect, or a deferred maintenance task as of 2026-08-01.",
+  "classification": {
+    "accuracy": 0.98,
+    "precision": 0.931,
+    "recall": 0.9643,
+    "f1_score": 0.9474,
+    "roc_auc": 0.9927
+  },
+  "feature_importance_pct": {
+    "historical_failures": 56.82,
+    "avg_duration_minutes": 13.15,
+    "emergency_count": 7.82,
+    "maintenance_count_365d": 7.17,
+    "maintenance_frequency_per_year": 7.06,
+    "days_since_last_service": 3.37,
+    "track_geometry_deviation_mm": 1.59,
+    "age_years": 1.47,
+    "vibration_mm_s": 0.52,
+    "asset_type_track circuit": 0.46,
+    "rail_wear_mm": 0.28,
+    "base_wear_index": 0.18
+  },
+  "health_regression": {
+    "r2": 0.9813,
+    "mae": 1.0375
+  }
+}

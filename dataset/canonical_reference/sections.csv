@@ -1,0 +1,7 @@
+section_id,corridor_id,name,start_km,end_km,line_type
+SEC-001,COR-001,Delhi Main - Delhi Shahdara UP,0.0,8.0,UP
+SEC-002,COR-001,Delhi Main - Delhi Shahdara DOWN,0.0,8.0,DOWN
+SEC-003,COR-001,Delhi Shahdara - Sahibabad UP,8.0,19.5,UP
+SEC-004,COR-001,Delhi Shahdara - Sahibabad DOWN,8.0,19.5,DOWN
+SEC-005,COR-001,Sahibabad - Ghaziabad UP,19.5,28.5,UP
+SEC-006,COR-001,Sahibabad - Ghaziabad DOWN,19.5,28.5,DOWN

@@ -1,0 +1,51 @@
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Node / React / Frontend Build Artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE & Editor Metadata
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary & Swap Files
+*.swp
+*.swo
+*~
+*.bak
+
+# Local Runtime SQLite Database
+railoptima.db
+*.db
+*.sqlite
+*.sqlite3

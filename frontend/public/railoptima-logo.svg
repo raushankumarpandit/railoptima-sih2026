@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" width="240" height="48" fill="none">
+  <!-- RAILOPTIMA Brand Mark Monogram (R + Parallel Rails + Forward Switch) -->
+  <g transform="translate(4, 0)">
+    <!-- Left Main Running Rail -->
+    <line x1="12" y1="6" x2="12" y2="42" stroke="#10261C" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Right Turnout Running Rail -->
+    <line x1="19" y1="6" x2="19" y2="42" stroke="#10261C" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- Precision Railway Cross-Ties (Sleepers) -->
+    <line x1="8" y1="12" x2="23" y2="12" stroke="#68736D" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="8" y1="19" x2="23" y2="19" stroke="#68736D" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="8" y1="26" x2="23" y2="26" stroke="#68736D" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="8" y1="33" x2="23" y2="33" stroke="#68736D" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="8" y1="40" x2="23" y2="40" stroke="#68736D" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- R Upper Architectural Head / Arc -->
+    <path d="M 19 8.5 H 29 C 35.5 8.5 39.5 12.5 39.5 18 C 39.5 23.5 35.5 27.5 29 27.5 H 19" 
+          stroke="#10261C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 19 13.5 H 28 C 31.5 13.5 34.5 15.5 34.5 18 C 34.5 20.5 31.5 22.5 28 22.5 H 19" 
+          stroke="#B59A63" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- High-Speed Switch Turnout Leg -->
+    <path d="M 26 26.5 L 39 41.5" stroke="#10261C" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M 21.5 28 L 33 41.5" stroke="#B59A63" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark: RAILOPTIMA -->
+  <text x="56" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'SF Pro Display', sans-serif" font-size="20" font-weight="700" letter-spacing="1.5" fill="#10261C">RAILOPTIMA</text>
+  
+  <!-- Subtitle: OPERATIONS INTELLIGENCE -->
+  <text x="56.5" y="39" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="7.5" font-weight="600" letter-spacing="2.2" fill="#B59A63">OPERATIONS INTELLIGENCE</text>
+</svg>

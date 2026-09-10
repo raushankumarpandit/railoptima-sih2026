@@ -1,0 +1,17 @@
+asset_type_id,department_id,name,description
+AT-001,DEP-001,track,Track geometry and alignment
+AT-002,DEP-001,rail,Steel rail tracks
+AT-003,DEP-001,turnout,Points and crossings
+AT-004,DEP-001,sleeper,Concrete sleepers supporting rails
+AT-005,DEP-002,signal,Aspect signals and lighting
+AT-006,DEP-002,point machine,Switch operating machines
+AT-007,DEP-002,track circuit,Electrical train occupancy detector
+AT-008,DEP-002,axle counter,Electronic train wheel counter
+AT-009,DEP-002,interlocking equipment,Station interlocking system
+AT-010,DEP-003,OHE,Overhead Equipment structure
+AT-011,DEP-003,contact wire,Copper wire supplying traction power
+AT-012,DEP-003,mast,Support structures for OHE wires
+AT-013,DEP-003,cantilever,Bracket assembly supporting wires
+AT-014,DEP-003,isolator,Manually operated OHE sectionalizing switch
+AT-015,DEP-003,feeder,Power feeder cables
+AT-016,DEP-003,traction substation,Substation providing traction supply

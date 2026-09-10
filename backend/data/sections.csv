@@ -1,0 +1,7 @@
+section_id,name,line_type
+SEC-001,Delhi Main - Delhi Shahdara UP,UP
+SEC-002,Delhi Main - Delhi Shahdara DOWN,DOWN
+SEC-003,Delhi Shahdara - Sahibabad UP,UP
+SEC-004,Delhi Shahdara - Sahibabad DOWN,DOWN
+SEC-005,Sahibabad - Ghaziabad UP,UP
+SEC-006,Sahibabad - Ghaziabad DOWN,DOWN
